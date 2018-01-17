@@ -1,0 +1,990 @@
+{  
+   "stations":[  
+      {  
+         "id":"weather009",
+         "addr":{  
+            "position":{  
+               "lat":14.017863,
+               "lon":99.523119
+            },
+            "en":{  
+               "province":"Kanchanaburi",
+               "subdistrict":"Ban Nuea",
+               "district":"Mueang Kanchanaburi"
+            },
+            "name":"\u0e28\u0e39\u0e19\u0e22\u0e4c\u0e27\u0e34\u0e17\u0e22\u0e32\u0e28\u0e32\u0e2a\u0e15\u0e23\u0e4c\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e01\u0e32\u0e23\u0e28\u0e36\u0e01\u0e29\u0e32\u0e08\u0e31\u0e07\u0e2b\u0e27\u0e31\u0e14\u0e01\u0e32\u0e0d\u0e08\u0e19\u0e1a\u0e38\u0e23\u0e35",
+            "th":{  
+               "province":"\u0e01\u0e32\u0e0d\u0e08\u0e19\u0e1a\u0e38\u0e23\u0e35",
+               "subdistrict":"\u0e1a\u0e49\u0e32\u0e19\u0e40\u0e2b\u0e19\u0e37\u0e2d",
+               "district":"\u0e40\u0e21\u0e37\u0e2d\u0e07\u0e01\u0e32\u0e0d\u0e08\u0e19\u0e1a\u0e38\u0e23\u0e35"
+            }
+         }
+      },
+      {  
+         "id":"planetarium",
+         "addr":{  
+            "position":{  
+               "lat":13.7197186,
+               "lon":100.5835478
+            },
+            "en":{  
+               "province":"Bangkok",
+               "subdistrict":"Pha Khanong",
+               "district":"Khlong Toei"
+            },
+            "name":"\u0e28\u0e39\u0e19\u0e22\u0e4c\u0e27\u0e34\u0e17\u0e22\u0e32\u0e28\u0e32\u0e2a\u0e15\u0e23\u0e4c\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e01\u0e32\u0e23\u0e28\u0e36\u0e01\u0e29\u0e32 \u0e17\u0e49\u0e2d\u0e07\u0e1f\u0e49\u0e32\u0e08\u0e33\u0e25\u0e2d\u0e07",
+            "th":{  
+               "province":"\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+               "subdistrict":"\u0e1e\u0e23\u0e30\u0e42\u0e02\u0e19\u0e07",
+               "district":"\u0e04\u0e25\u0e2d\u0e07\u0e40\u0e15\u0e22"
+            }
+         }
+      },
+      {  
+         "id":"weather006",
+         "addr":{  
+            "position":{  
+               "lat":18.318076,
+               "lon":99.47232
+            },
+            "en":{  
+               "province":"Lampang",
+               "subdistrict":"Bo Haeo",
+               "district":"Mueang Lampang"
+            },
+            "name":"\u0e28\u0e39\u0e19\u0e22\u0e4c\u0e27\u0e34\u0e17\u0e22\u0e32\u0e28\u0e32\u0e2a\u0e15\u0e23\u0e4c\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e01\u0e32\u0e23\u0e28\u0e36\u0e01\u0e29\u0e32\u0e08\u0e31\u0e07\u0e2b\u0e27\u0e31\u0e14\u0e25\u0e33\u0e1b\u0e32\u0e07",
+            "th":{  
+               "province":"\u0e25\u0e33\u0e1b\u0e32\u0e07",
+               "subdistrict":"\u0e1a\u0e48\u0e2d\u0e41\u0e2e\u0e49\u0e27",
+               "district":"\u0e40\u0e21\u0e37\u0e2d\u0e07\u0e25\u0e33\u0e1b\u0e32\u0e07"
+            }
+         }
+      },
+      {  
+         "id":"weather008",
+         "addr":{  
+            "position":{  
+               "lat":13.799137,
+               "lon":102.131071
+            },
+            "en":{  
+               "province":"Sa Kaeo",
+               "subdistrict":"Tha Kasem",
+               "district":"Mueang Sa Kaeo"
+            },
+            "name":"\u0e28\u0e39\u0e19\u0e22\u0e4c\u0e27\u0e34\u0e17\u0e22\u0e32\u0e28\u0e32\u0e2a\u0e15\u0e23\u0e4c\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e01\u0e32\u0e23\u0e28\u0e36\u0e01\u0e29\u0e32\u0e2a\u0e23\u0e30\u0e41\u0e01\u0e49\u0e27",
+            "th":{  
+               "province":"\u0e2a\u0e23\u0e30\u0e41\u0e01\u0e49\u0e27",
+               "subdistrict":"\u0e17\u0e48\u0e32\u0e40\u0e01\u0e29\u0e21",
+               "district":"\u0e40\u0e21\u0e37\u0e2d\u0e07\u0e2a\u0e23\u0e30\u0e41\u0e01\u0e49\u0e27"
+            }
+         }
+      },
+      {  
+         "id":"weather007",
+         "addr":{  
+            "position":{  
+               "lat":7.500692,
+               "lon":99.626326
+            },
+            "en":{  
+               "province":"Trang",
+               "subdistrict":"Khok Lo",
+               "district":"Mueang Trang"
+            },
+            "name":"\u0e28\u0e39\u0e19\u0e22\u0e4c\u0e27\u0e34\u0e17\u0e22\u0e32\u0e28\u0e32\u0e2a\u0e15\u0e23\u0e4c\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e01\u0e32\u0e23\u0e28\u0e36\u0e01\u0e29\u0e32\u0e15\u0e23\u0e31\u0e07",
+            "th":{  
+               "province":"\u0e15\u0e23\u0e31\u0e07",
+               "subdistrict":"\u0e42\u0e04\u0e01\u0e2b\u0e25\u0e48\u0e2d",
+               "district":"\u0e40\u0e21\u0e37\u0e2d\u0e07\u0e15\u0e23\u0e31\u0e07"
+            }
+         }
+      },
+      {  
+         "id":"weather003",
+         "addr":{  
+            "position":{  
+               "lat":16.050806,
+               "lon":102.716469
+            },
+            "en":{  
+               "province":"Khon Kaen",
+               "subdistrict":"Nai Mueang",
+               "district":"Ban Phai"
+            },
+            "name":"\u0e28\u0e39\u0e19\u0e22\u0e4c\u0e27\u0e34\u0e17\u0e22\u0e32\u0e28\u0e32\u0e2a\u0e15\u0e23\u0e4c\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e01\u0e32\u0e23\u0e28\u0e36\u0e01\u0e29\u0e32\u0e08\u0e31\u0e07\u0e2b\u0e27\u0e31\u0e14\u0e02\u0e2d\u0e19\u0e41\u0e01\u0e48\u0e19",
+            "th":{  
+               "province":"\u0e02\u0e2d\u0e19\u0e41\u0e01\u0e48\u0e19",
+               "subdistrict":"\u0e43\u0e19\u0e40\u0e21\u0e37\u0e2d\u0e07",
+               "district":"\u0e1a\u0e49\u0e32\u0e19\u0e44\u0e1c\u0e48"
+            }
+         }
+      },
+      {  
+         "id":"weather002",
+         "addr":{  
+            "position":{  
+               "lat":17.409311,
+               "lon":104.780671
+            },
+            "en":{  
+               "province":"Nakorn Phanom",
+               "subdistrict":"Nai Mueang",
+               "district":"Mueang Nakhon Phanom"
+            },
+            "name":"\u0e2a\u0e33\u0e19\u0e31\u0e01\u0e07\u0e32\u0e19\u0e1e\u0e25\u0e31\u0e07\u0e07\u0e32\u0e19\u0e08\u0e31\u0e07\u0e2b\u0e27\u0e31\u0e14 \u0e19\u0e04\u0e23\u0e1e\u0e19\u0e21",
+            "th":{  
+               "province":"\u0e19\u0e04\u0e23\u0e1e\u0e19\u0e21",
+               "subdistrict":"\u0e43\u0e19\u0e40\u0e21\u0e37\u0e2d\u0e07",
+               "district":"\u0e40\u0e21\u0e37\u0e2d\u0e07\u0e19\u0e04\u0e23\u0e1e\u0e19\u0e21"
+            }
+         }
+      },
+      {  
+         "id":"weather_solar_0000",
+         "addr":{  
+            "position":{  
+               "lat":13.918186,
+               "lon":100.861172
+            },
+            "en":{  
+               "province":"Bangkok",
+               "subdistrict":"Khlong Sip Song",
+               "district":"Nong Chok"
+            },
+            "name":"\u0e19\u0e32\u0e02\u0e49\u0e32\u0e27 \u0e21\u0e19\u0e0a\u0e31\u0e22",
+            "th":{  
+               "province":"\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+               "subdistrict":"\u0e04\u0e25\u0e2d\u0e07\u0e2a\u0e34\u0e1a\u0e2a\u0e2d\u0e07",
+               "district":"\u0e2b\u0e19\u0e2d\u0e07\u0e08\u0e2d\u0e01"
+            }
+         }
+      },
+      {  
+         "id":"weather004",
+         "addr":{  
+            "position":{  
+               "lat":14.847418,
+               "lon":101.675778
+            },
+            "en":{  
+               "province":"Nakhon Ratchasima",
+               "subdistrict":"Mittraphap",
+               "district":"Sikhio"
+            },
+            "name":"\u0e28\u0e39\u0e19\u0e22\u0e4c\u0e27\u0e34\u0e17\u0e22\u0e32\u0e28\u0e32\u0e2a\u0e15\u0e23\u0e4c\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e01\u0e32\u0e23\u0e28\u0e36\u0e01\u0e29\u0e32 \u0e19\u0e04\u0e23\u0e23\u0e32\u0e0a\u0e2a\u0e35\u0e21\u0e32",
+            "th":{  
+               "province":"\u0e19\u0e04\u0e23\u0e23\u0e32\u0e0a\u0e2a\u0e35\u0e21\u0e32",
+               "subdistrict":"\u0e21\u0e34\u0e15\u0e23\u0e20\u0e32\u0e1e",
+               "district":"\u0e2a\u0e35\u0e04\u0e34\u0e49\u0e27"
+            }
+         }
+      },
+      {  
+         "id":"weather005",
+         "addr":{  
+            "position":{  
+               "lat":17.374524,
+               "lon":104.73629
+            },
+            "en":{  
+               "province":"Nakhon Phanom",
+               "subdistrict":"Nong Yat",
+               "place":"Maekong Underwater World",
+               "district":"Mueang Nakhon Phanom"
+            },
+            "name":"\u0e1e\u0e34\u0e1e\u0e34\u0e18\u0e20\u0e31\u0e13\u0e11\u0e4c\u0e2a\u0e31\u0e15\u0e27\u0e4c\u0e19\u0e49\u0e33\u0e08\u0e37\u0e14\u0e2b\u0e19\u0e2d\u0e07\u0e0d\u0e32\u0e15\u0e34",
+            "th":{  
+               "province":"\u0e19\u0e04\u0e23\u0e1e\u0e19\u0e21",
+               "subdistrict":"\u0e2b\u0e19\u0e2d\u0e07\u0e0d\u0e32\u0e15\u0e34",
+               "place":"\u0e1e\u0e34\u0e1e\u0e34\u0e18\u0e20\u0e31\u0e13\u0e11\u0e4c\u0e2a\u0e31\u0e15\u0e27\u0e4c\u0e19\u0e49\u0e33\u0e08\u0e37\u0e14\u0e2b\u0e19\u0e2d\u0e07\u0e0d\u0e32\u0e15\u0e34",
+               "district":"\u0e40\u0e21\u0e37\u0e2d\u0e07\u0e19\u0e04\u0e23\u0e1e\u0e19\u0e21"
+            }
+         }
+      },
+      {  
+         "id":"weather000_1",
+         "addr":{  
+            "position":{  
+               "lat":13.84575,
+               "lon":100.569756
+            },
+            "en":{  
+               "province":"Bangkok",
+               "subdistrict":"Latyao",
+               "district":"Chatuchak"
+            },
+            "name":"\u0e04\u0e13\u0e30\u0e27\u0e34\u0e28\u0e27\u0e01\u0e23\u0e23\u0e21\u0e28\u0e32\u0e2a\u0e15\u0e23\u0e4c \u0e21\u0e2b\u0e32\u0e27\u0e34\u0e17\u0e22\u0e32\u0e25\u0e31\u0e22\u0e40\u0e01\u0e29\u0e15\u0e23\u0e28\u0e32\u0e2a\u0e15\u0e23\u0e4c",
+            "th":{  
+               "province":"\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+               "subdistrict":"\u0e25\u0e32\u0e14\u0e22\u0e32\u0e27",
+               "district":"\u0e08\u0e15\u0e38\u0e08\u0e31\u0e01\u0e23"
+            }
+         }
+      },
+      {  
+         "id":"weather000",
+         "addr":{  
+            "position":{  
+               "lat":13.845754,
+               "lon":100.56967
+            },
+            "en":{  
+               "province":"Bangkok",
+               "subdistrict":"Latyao",
+               "district":"Chatuchak"
+            },
+            "name":"\u0e04\u0e13\u0e30\u0e27\u0e34\u0e28\u0e27\u0e01\u0e23\u0e23\u0e21\u0e28\u0e32\u0e2a\u0e15\u0e23\u0e4c \u0e21\u0e2b\u0e32\u0e27\u0e34\u0e17\u0e22\u0e32\u0e25\u0e31\u0e22\u0e40\u0e01\u0e29\u0e15\u0e23\u0e28\u0e32\u0e2a\u0e15\u0e23\u0e4c",
+            "th":{  
+               "province":"\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+               "subdistrict":"\u0e25\u0e32\u0e14\u0e22\u0e32\u0e27",
+               "district":"\u0e08\u0e15\u0e38\u0e08\u0e31\u0e01\u0e23"
+            }
+         }
+      },
+      {  
+         "id":"weather011",
+         "addr":{  
+            "position":{  
+               "lat":11.715605,
+               "lon":99.751834
+            },
+            "en":{  
+               "province":"Prachuap Khiri Khan",
+               "subdistrict":"Khlong Wan",
+               "district":"Mueang Prachuap Khiri Khan"
+            },
+            "name":"\u0e2d\u0e38\u0e17\u0e22\u0e32\u0e19\u0e27\u0e34\u0e17\u0e22\u0e32\u0e28\u0e32\u0e2a\u0e15\u0e23\u0e4c\u0e1e\u0e23\u0e30\u0e08\u0e2d\u0e21\u0e40\u0e01\u0e25\u0e49\u0e32 \u0e13 \u0e2b\u0e27\u0e49\u0e32\u0e01\u0e2d",
+            "th":{  
+               "province":"\u0e1b\u0e23\u0e30\u0e08\u0e27\u0e1a\u0e04\u0e35\u0e23\u0e35\u0e02\u0e31\u0e19\u0e18\u0e4c",
+               "subdistrict":"\u0e04\u0e25\u0e2d\u0e07\u0e27\u0e32\u0e2c",
+               "district":"\u0e40\u0e21\u0e37\u0e2d\u0e07\u0e1b\u0e23\u0e30\u0e08\u0e27\u0e1a\u0e04\u0e35\u0e23\u0e35\u0e02\u0e31\u0e19\u0e18\u0e4c"
+            }
+         }
+      },
+      {  
+         "id":"weather010",
+         "addr":{  
+            "position":{  
+               "lat":15.249715,
+               "lon":104.849048
+            },
+            "en":{  
+               "province":"Ubon Ratchathani",
+               "subdistrict":"Nai Mueang",
+               "district":"Mueang Ubon Ratchathani"
+            },
+            "name":"\u0e28\u0e39\u0e19\u0e22\u0e4c\u0e27\u0e34\u0e17\u0e22\u0e32\u0e28\u0e32\u0e2a\u0e15\u0e23\u0e4c\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e01\u0e32\u0e23\u0e28\u0e36\u0e01\u0e29\u0e32\u0e2d\u0e38\u0e1a\u0e25\u0e23\u0e32\u0e0a\u0e18\u0e32\u0e19\u0e35",
+            "th":{  
+               "province":"\u0e2d\u0e38\u0e1a\u0e25\u0e23\u0e32\u0e0a\u0e18\u0e32\u0e19\u0e35",
+               "subdistrict":"\u0e43\u0e19\u0e40\u0e21\u0e37\u0e2d\u0e07",
+               "district":"\u0e40\u0e21\u0e37\u0e2d\u0e07\u0e2d\u0e38\u0e1a\u0e25\u0e23\u0e32\u0e0a\u0e18\u0e32\u0e19\u0e35"
+            }
+         }
+      },
+      {  
+         "id":"weather012",
+         "addr":{  
+            "position":{  
+               "lat":14.030207,
+               "lon":100.722122
+            },
+            "en":{  
+               "province":"Pathum Thani",
+               "subdistrict":"Khlong Hok",
+               "district":"Khlong Luang"
+            },
+            "name":"\u0e28\u0e39\u0e19\u0e22\u0e4c\u0e27\u0e34\u0e17\u0e22\u0e32\u0e28\u0e32\u0e2a\u0e15\u0e23\u0e4c\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e01\u0e32\u0e23\u0e28\u0e36\u0e01\u0e29\u0e32\u0e23\u0e31\u0e07\u0e2a\u0e34\u0e15",
+            "th":{  
+               "province":"\u0e1b\u0e17\u0e38\u0e21\u0e18\u0e32\u0e19\u0e35",
+               "subdistrict":"\u0e04\u0e25\u0e2d\u0e07\u0e2b\u0e01",
+               "district":"\u0e04\u0e25\u0e2d\u0e07\u0e2b\u0e25\u0e27\u0e07"
+            }
+         }
+      },
+      {  
+         "id":"weather013",
+         "addr":{  
+            "position":{  
+               "lat":16.037889,
+               "lon":103.743889
+            },
+            "en":{  
+               "province":"Roi Et",
+               "subdistrict":"Niwet",
+               "district":"Thawat Buri"
+            },
+            "name":"\u0e28\u0e39\u0e19\u0e22\u0e4c\u0e27\u0e34\u0e17\u0e22\u0e32\u0e28\u0e32\u0e2a\u0e15\u0e23\u0e4c\u0e41\u0e25\u0e30\u0e27\u0e31\u0e12\u0e19\u0e18\u0e23\u0e23\u0e21\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e01\u0e32\u0e23\u0e28\u0e36\u0e01\u0e29\u0e32\u0e23\u0e49\u0e2d\u0e22\u0e40\u0e2d\u0e47\u0e14",
+            "th":{  
+               "province":"\u0e23\u0e49\u0e2d\u0e22\u0e40\u0e2d\u0e47\u0e14",
+               "subdistrict":"\u0e19\u0e34\u0e40\u0e27\u0e28\u0e19\u0e4c",
+               "district":"\u0e18\u0e27\u0e31\u0e0a\u0e1a\u0e38\u0e23\u0e35"
+            }
+         }
+      },
+      {  
+         "id":"weather_solar_0001",
+         "addr":{  
+            "position":{  
+               "lat":8.243154,
+               "lon":98.3199473
+            },
+            "en":{  
+               "province":"Phangnga",
+               "subdistrict":"Khok Kloi",
+               "district":"Takua Thung"
+            },
+            "name":"\u0e19\u0e32\u0e22\u0e2a\u0e21\u0e1a\u0e31\u0e15\u0e34 \u0e22\u0e01\u0e40\u0e0a\u0e37\u0e49\u0e2d \u0e28\u0e39\u0e19\u0e22\u0e4c\u0e40\u0e23\u0e35\u0e22\u0e19\u0e23\u0e39\u0e49\u0e40\u0e01\u0e29\u0e15\u0e23\u0e40\u0e17\u0e04\u0e42\u0e19\u0e42\u0e25\u0e22\u0e35\u0e43\u0e2b\u0e21\u0e48 \u0e1a\u0e49\u0e32\u0e19\u0e19\u0e32\u0e01\u0e25\u0e32\u0e07\u0e1b\u0e23\u0e30\u0e0a\u0e32\u0e23\u0e31\u0e10\u0e2a\u0e21\u0e32\u0e23\u0e4c\u0e17\u0e1f\u0e32\u0e23\u0e4c\u0e21",
+            "th":{  
+               "province":"\u0e1e\u0e31\u0e07\u0e07\u0e32",
+               "subdistrict":"\u0e42\u0e04\u0e01\u0e01\u0e25\u0e2d\u0e22",
+               "other":"\u0e2b\u0e21\u0e39\u0e48 9 \u0e1a\u0e49\u0e32\u0e19\u0e19\u0e32\u0e01\u0e25\u0e32\u0e07",
+               "district":"\u0e15\u0e30\u0e01\u0e31\u0e48\u0e27\u0e17\u0e38\u0e48\u0e07"
+            }
+         }
+      },
+      {  
+         "id":"weather_solar_0003",
+         "addr":{  
+            "position":{  
+               "lat":14.478277,
+               "lon":100.641681
+            },
+            "en":{  
+               "province":"Phra Nakhon Si Ayutthaya",
+               "subdistrict":"Phra Non",
+               "district":"Nakhon Luang"
+            },
+            "name":"\u0e04\u0e38\u0e13\u0e1b\u0e23\u0e30\u0e2a\u0e07\u0e04\u0e4c \u0e15\u0e23\u0e35\u0e1e\u0e31\u0e12\u0e19\u0e4c \u0e28\u0e39\u0e19\u0e22\u0e4c\u0e27\u0e34\u0e17\u0e22\u0e32\u0e28\u0e32\u0e2a\u0e15\u0e23\u0e4c\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e01\u0e32\u0e23\u0e28\u0e36\u0e01\u0e29\u0e32 \u0e1e\u0e23\u0e30\u0e19\u0e04\u0e23\u0e28\u0e23\u0e35\u0e2d\u0e22\u0e38\u0e18\u0e22\u0e32",
+            "th":{  
+               "province":"\u0e1e\u0e23\u0e30\u0e19\u0e04\u0e23\u0e28\u0e23\u0e35\u0e2d\u0e22\u0e38\u0e18\u0e22\u0e32",
+               "subdistrict":"\u0e1e\u0e23\u0e30\u0e19\u0e2d\u0e19",
+               "other":"7/1 \u0e2b\u0e21\u0e39\u0e48 6",
+               "district":"\u0e19\u0e04\u0e23\u0e2b\u0e25\u0e27\u0e07"
+            }
+         }
+      },
+      {  
+         "id":"weather_solar_0002",
+         "addr":{  
+            "position":{  
+               "lat":17.277429,
+               "lon":104.456059
+            },
+            "en":{  
+               "province":"Nakhon Phanom",
+               "subdistrict":"Maha Chai",
+               "district":"Pla Pak"
+            },
+            "name":"\u0e41\u0e1b\u0e25\u0e07\u0e25\u0e33\u0e43\u0e22 \u0e2d.\u0e1b\u0e25\u0e32\u0e1b\u0e32\u0e01 \u0e08.\u0e19\u0e04\u0e23\u0e1e\u0e19\u0e21 \u0e42\u0e04\u0e23\u0e07\u0e01\u0e32\u0e23 BESt",
+            "th":{  
+               "province":"\u0e19\u0e04\u0e23\u0e1e\u0e19\u0e21",
+               "subdistrict":"\u0e21\u0e2b\u0e32\u0e0a\u0e31\u0e22",
+               "district":"\u0e1b\u0e25\u0e32\u0e1b\u0e32\u0e01"
+            }
+         }
+      }
+   ],
+   "exhibitions":[  
+                                {
+                                    "id": "weather006",  
+                                    "name": "ลำปาง",
+                                    "indoors":{
+                                        "bg" : "img/indoor/bg_indoor.png",
+                                        "list": [ 
+                                        {
+                                            "type": "link", 
+                                            "top": "51.5",
+                                            "left": "10.3",
+                                            "key": ["http://csrs.ku.ac.th/files/energy_exhibition/game/01"]
+                                        },
+                                        {
+                                            "type": "link",  
+                                            "top": "48.8",
+                                            "left": "26.8",
+                                            "key": ["http://csrs.ku.ac.th/files/energy_exhibition/game/02"]
+                                        },
+                                        {
+                                            "type": "link",  
+                                            "top": "48",
+                                            "left": "36.6",
+                                            "key": ["http://csrs.ku.ac.th/devices?ID=weather006"]
+                                        },
+                                        {
+                                            "type": "link",  
+                                            "top": "49",
+                                            "left": "50.7",
+                                            "key": ["http://csrs.ku.ac.th/files/energy_exhibition/game/03"]
+                                        },
+                                        {
+                                            "type": "link", 
+                                            "top": "51.8",
+                                            "left": "72",
+                                            "key": ["http://csrs.ku.ac.th/files/energy_exhibition/game/04"]
+                                        }
+                                    ]},
+                                    "outdoors": {
+                                        "bg" : "img/outdoor/bg_outdoor.png",
+                                        "list" : [
+                                                {
+                                                    "type": "exh",
+                                                    "top": "22",
+                                                    "left": "33.5",
+                                                    "key": ["b-1","b-2","b-3","b-4"],
+                                                    "title":"จักรยานปั่นออกกำลังกาย",
+                                                    "subtitle":"ปั่นสร้างพลังงาน(Bicycle Generator)",
+                                                    "th": "การปั่นสร้างพลังงาน เป็นการนำพลังงานที่ได้จากการออกกำลังกายของมนุษย์มาใช้เป็นพลังงานทดแทนในการผลิต ไฟฟ้าด้วยจักรยานปั่นรูปแบบต่าง ๆ ที่ใช้ทั้งวิทยาศาสตร์ เทคโนโลยี กระบวนการทางวิศวกรรมศาสตร์และคณิตศาสตร์ แก้ปัญหาที่เชื่อมโยงกับชีวิตจริง มุ่งสู่การสร้างนวัตกรรมด้านพลังงานในอนาคต",
+                                                    "en": "A bicycle generator is an exercising machine using  human power to generate electricity. It can be designed in various features from a used bicycle on your own. The invention corresponds to science, technology, engineering and mathematics  for  solving problems related to everyday life towards energy innovation."
+                                                },
+                                                {
+                                                    "type": "graph",
+                                                    "top": "16",
+                                                    "left": "43",
+                                                    "key": ["kWh-พลังงานไฟฟ้า","W-กำลังไฟฟ้า"],
+                                                    "percent": ["30","35"],
+                                                    "th": "การปั่นสร้างพลังงาน เป็นการนำพลังงานที่ได้จากการออกกำลังกายของมนุษย์มาใช้เป็นพลังงานทดแทนในการผลิต ไฟฟ้าด้วยจักรยานปั่นรูปแบบต่าง ๆ ที่ใช้ทั้งวิทยาศาสตร์ เทคโนโลยี กระบวนการทางวิศวกรรมศาสตร์และคณิตศาสตร์ แก้ปัญหาที่เชื่อมโยงกับชีวิตจริง มุ่งสู่การสร้างนวัตกรรมด้านพลังงานในอนาคต"
+            
+                                                },
+                                                {
+                                                    "type": "graph",
+                                                    "top": "16",
+                                                    "left": "50.2",
+                                                    "key": ["kWh-พลังงานไฟฟ้า","W-กำลังไฟฟ้า"],
+                                                    "percent": ["30","35"],
+                                                    "th": "การปั่นสร้างพลังงาน เป็นการนำพลังงานที่ได้จากการออกกำลังกายของมนุษย์มาใช้เป็นพลังงานทดแทนในการผลิต ไฟฟ้าด้วยจักรยานปั่นรูปแบบต่าง ๆ ที่ใช้ทั้งวิทยาศาสตร์ เทคโนโลยี กระบวนการทางวิศวกรรมศาสตร์และคณิตศาสตร์ แก้ปัญหาที่เชื่อมโยงกับชีวิตจริง มุ่งสู่การสร้างนวัตกรรมด้านพลังงานในอนาคต"
+            
+                                                },
+                                                {
+                                                    "type": "graph",
+                                                    "top": "16",
+                                                    "left": "57.5",
+                                                    "key": ["kWh-พลังงานไฟฟ้า","W-กำลังไฟฟ้า"],
+                                                    "percent": ["30","35"],
+                                                    "th": "การปั่นสร้างพลังงาน เป็นการนำพลังงานที่ได้จากการออกกำลังกายของมนุษย์มาใช้เป็นพลังงานทดแทนในการผลิต ไฟฟ้าด้วยจักรยานปั่นรูปแบบต่าง ๆ ที่ใช้ทั้งวิทยาศาสตร์ เทคโนโลยี กระบวนการทางวิศวกรรมศาสตร์และคณิตศาสตร์ แก้ปัญหาที่เชื่อมโยงกับชีวิตจริง มุ่งสู่การสร้างนวัตกรรมด้านพลังงานในอนาคต"
+            
+                                                },
+                                                {
+                                                    "type": "exh",
+                                                    "top": "24",
+                                                    "left": "6",
+                                                    "key": ["solar1","solar2"],
+                                                    "title": "Solar flower",
+                                                    "subtitle": "",
+                                                    "th": "พลังงานแสงอาทิตย์ เป็นพลังงานจากการแผ่รังสีของดวงอาทิตย์ที่ส่งมายังโลก ให้ทั้งพลังงานแสงและความร้อน ประเทศไทยตั้งอยู่ในเขตเส้นศูนย์สูตรจึงได้รับแสงอาทิตย์อย่างต่อเนื่องและคงที่ตลอดปี ถือว่ามีศักยภาพ พลังงานแสงอาทิตย์ค่อนข้างสูง พื้นที่ทั่วประเทศได้รับความเข้มรังสีรวมของดวงอาทิตย์รายวันเฉลี่ยต่อปี 18.0 MJ/m2-day หรือ 5 kWh/m2-day",
+                                                    "en": "Solar energy is energy obtained from the sun's radiation in the forms of heat and light. It is said that Thailand has high solar potential due to the location in the tropical area. The average solar radiation in Thailand is about 18.0 MJ/m -day or about 5 kWh/m2 -day."
+                                            
+                                                },
+                                                {
+                                                    "type": "graph",
+                                                    "top": "17.5",
+                                                    "left": "23",
+                                                    "key": ["kWh-พลังงานไฟฟ้า","W-กำลังไฟฟ้า"],
+                                                    "percent": ["30","35"],
+                                                    "th": "การปั่นสร้างพลังงาน เป็นการนำพลังงานที่ได้จากการออกกำลังกายของมนุษย์มาใช้เป็นพลังงานทดแทนในการผลิต ไฟฟ้าด้วยจักรยานปั่นรูปแบบต่าง ๆ ที่ใช้ทั้งวิทยาศาสตร์ เทคโนโลยี กระบวนการทางวิศวกรรมศาสตร์และคณิตศาสตร์ แก้ปัญหาที่เชื่อมโยงกับชีวิตจริง มุ่งสู่การสร้างนวัตกรรมด้านพลังงานในอนาคต"
+            
+                                                },
+                                                {
+                                                    "type": "exh",
+                                                    "top": "23",
+                                                    "left": "89",
+                                                    "key": ["stove1","stove2"],
+                                                    "title": "เตาประสิทธิภาพสูง (Rocket Stove)",
+                                                    "subtitle": "ชีวมวล(Biomass)",
+                                                    "th": "ชีวมวลเป็นสารอินทรีย์ที่ได้จากสิ่งมีชีวิต เช่น เศษไม้ วัสดุทางการเกษตร สามารถใช้เป็นเชื้อเพลิง เพื่อผลิตพลังงานด้วยกระบวนการต่าง ๆ การใช้เตาประสิทธิภาพสูง Rocket Stove เป็นวิธีหนึ่งในการผลิต ความร้อนโดยการเผาไหม้เชื้อเพลิงชีวมวล มีการเผาไหมสมบูรณ์ ลดการปล่อยแก๊สมลพิษทางอากาศ มักใช้ฟืน เป็นเชื้อเพลิงและใช้จำนวนน้อย ช่วยลดค่าใช้จ่ายในครัวเรือนได้",
+                                                    "en": "Biomass, such as wood residues and agricultural products, is fuel from living organisms. It can be used to create various types of energy in a variety of ways. A rocket stove is an efficient cooking device to produce heat by burning biomass fuels. There is clean and efficient combustion process, so it reduces harmful emissions. The rocket stove uses less firewood or thin sticks as fuel, therefore, reduces household expense."
+                                            
+                                                },
+                                                {
+                                                    "type": "graph",
+                                                    "top": "57",
+                                                    "left": "74",
+                                                    "key": ["kWh-พลังงานไฟฟ้า","W-กำลังไฟฟ้า","T-อุณหภูมิ"],
+                                                    "percent": ["30","40","85"],
+                                                    "th": "การปั่นสร้างพลังงาน เป็นการนำพลังงานที่ได้จากการออกกำลังกายของมนุษย์มาใช้เป็นพลังงานทดแทนในการผลิต ไฟฟ้าด้วยจักรยานปั่นรูปแบบต่าง ๆ ที่ใช้ทั้งวิทยาศาสตร์ เทคโนโลยี กระบวนการทางวิศวกรรมศาสตร์และคณิตศาสตร์ แก้ปัญหาที่เชื่อมโยงกับชีวิตจริง มุ่งสู่การสร้างนวัตกรรมด้านพลังงานในอนาคต"
+            
+                                                }
+                                            ]
+                                    }
+                                },
+                                {
+                                    "id": "weather011",  
+                                    "name": "ประจวบ",
+                                    "indoors":{
+                                        "bg" : "img/indoor/bg_indoor.png",
+                                        "list": [ 
+                                         {
+                                            "type": "link", 
+                                            "top": "51.5",
+                                            "left": "10.3",
+                                            "key": ["http://csrs.ku.ac.th/files/energy_exhibition/game/01"]
+                                        },
+                                        {
+                                            "type": "link",  
+                                            "top": "48.8",
+                                            "left": "26.8",
+                                            "key": ["http://csrs.ku.ac.th/files/energy_exhibition/game/02"]
+                                        },
+                                        {
+                                            "type": "link",  
+                                            "top": "48",
+                                            "left": "36.6",
+                                            "key": ["http://csrs.ku.ac.th/devices?ID=weather011"]
+                                        },
+                                        {
+                                            "type": "link",  
+                                            "top": "49",
+                                            "left": "50.7",
+                                            "key": ["http://csrs.ku.ac.th/files/energy_exhibition/game/03"]
+                                        },
+                                        {
+                                            "type": "link", 
+                                            "top": "51.8",
+                                            "left": "72",
+                                            "key": ["http://csrs.ku.ac.th/files/energy_exhibition/game/04"]
+                                        }
+                                    ]},
+                                    "outdoors": {
+                                        "bg" : "img/outdoor/bg_outdoor.png",
+                                        "list" : [
+                                                {
+                                                    "type": "exh",
+                                                    "top": "22",
+                                                    "left": "33.5",
+                                                    "key": ["b-1","b-2","b-3","b-4"],
+                                                    "title":"จักรยานปั่นออกกำลังกาย",
+                                                    "subtitle":"ปั่นสร้างพลังงาน(Bicycle Generator)",
+                                                    "th": "การปั่นสร้างพลังงาน เป็นการนำพลังงานที่ได้จากการออกกำลังกายของมนุษย์มาใช้เป็นพลังงานทดแทนในการผลิต ไฟฟ้าด้วยจักรยานปั่นรูปแบบต่าง ๆ ที่ใช้ทั้งวิทยาศาสตร์ เทคโนโลยี กระบวนการทางวิศวกรรมศาสตร์และคณิตศาสตร์ แก้ปัญหาที่เชื่อมโยงกับชีวิตจริง มุ่งสู่การสร้างนวัตกรรมด้านพลังงานในอนาคต",
+                                                    "en": "A bicycle generator is an exercising machine using  human power to generate electricity. It can be designed in various features from a used bicycle on your own. The invention corresponds to science, technology, engineering and mathematics  for  solving problems related to everyday life towards energy innovation."
+                                                },
+                                                {
+                                                    "type": "graph",
+                                                    "top": "16",
+                                                    "left": "43",
+                                                    "key": ["kWh-พลังงานไฟฟ้า","W-กำลังไฟฟ้า"],
+                                                    "percent": ["30","35"],
+                                                    "th": "การปั่นสร้างพลังงาน เป็นการนำพลังงานที่ได้จากการออกกำลังกายของมนุษย์มาใช้เป็นพลังงานทดแทนในการผลิต ไฟฟ้าด้วยจักรยานปั่นรูปแบบต่าง ๆ ที่ใช้ทั้งวิทยาศาสตร์ เทคโนโลยี กระบวนการทางวิศวกรรมศาสตร์และคณิตศาสตร์ แก้ปัญหาที่เชื่อมโยงกับชีวิตจริง มุ่งสู่การสร้างนวัตกรรมด้านพลังงานในอนาคต"
+            
+                                                },
+                                                {
+                                                    "type": "graph",
+                                                    "top": "16",
+                                                    "left": "50.2",
+                                                    "key": ["kWh-พลังงานไฟฟ้า","W-กำลังไฟฟ้า"],
+                                                    "percent": ["30","35"],
+                                                    "th": "การปั่นสร้างพลังงาน เป็นการนำพลังงานที่ได้จากการออกกำลังกายของมนุษย์มาใช้เป็นพลังงานทดแทนในการผลิต ไฟฟ้าด้วยจักรยานปั่นรูปแบบต่าง ๆ ที่ใช้ทั้งวิทยาศาสตร์ เทคโนโลยี กระบวนการทางวิศวกรรมศาสตร์และคณิตศาสตร์ แก้ปัญหาที่เชื่อมโยงกับชีวิตจริง มุ่งสู่การสร้างนวัตกรรมด้านพลังงานในอนาคต"
+            
+                                                },
+                                                {
+                                                    "type": "graph",
+                                                    "top": "16",
+                                                    "left": "57.5",
+                                                    "key": ["kWh-พลังงานไฟฟ้า","W-กำลังไฟฟ้า"],
+                                                    "percent": ["30","35"],
+                                                    "th": "การปั่นสร้างพลังงาน เป็นการนำพลังงานที่ได้จากการออกกำลังกายของมนุษย์มาใช้เป็นพลังงานทดแทนในการผลิต ไฟฟ้าด้วยจักรยานปั่นรูปแบบต่าง ๆ ที่ใช้ทั้งวิทยาศาสตร์ เทคโนโลยี กระบวนการทางวิศวกรรมศาสตร์และคณิตศาสตร์ แก้ปัญหาที่เชื่อมโยงกับชีวิตจริง มุ่งสู่การสร้างนวัตกรรมด้านพลังงานในอนาคต"
+            
+                                                },
+                                                {
+                                                    "type": "exh",
+                                                    "top": "24",
+                                                    "left": "6",
+                                                    "key": ["solar1","solar2"],
+                                                    "title": "Solar flower",
+                                                    "subtitle": "",
+                                                    "th": "พลังงานแสงอาทิตย์ เป็นพลังงานจากการแผ่รังสีของดวงอาทิตย์ที่ส่งมายังโลก ให้ทั้งพลังงานแสงและความร้อน ประเทศไทยตั้งอยู่ในเขตเส้นศูนย์สูตรจึงได้รับแสงอาทิตย์อย่างต่อเนื่องและคงที่ตลอดปี ถือว่ามีศักยภาพ พลังงานแสงอาทิตย์ค่อนข้างสูง พื้นที่ทั่วประเทศได้รับความเข้มรังสีรวมของดวงอาทิตย์รายวันเฉลี่ยต่อปี 18.0 MJ/m2-day หรือ 5 kWh/m2-day",
+                                                    "en": "Solar energy is energy obtained from the sun's radiation in the forms of heat and light. It is said that Thailand has high solar potential due to the location in the tropical area. The average solar radiation in Thailand is about 18.0 MJ/m -day or about 5 kWh/m2 -day."
+                                            
+                                                },
+                                                {
+                                                    "type": "graph",
+                                                    "top": "17.5",
+                                                    "left": "23",
+                                                    "key": ["kWh-พลังงานไฟฟ้า","W-กำลังไฟฟ้า"],
+                                                    "percent": ["30","35"],
+                                                    "th": "การปั่นสร้างพลังงาน เป็นการนำพลังงานที่ได้จากการออกกำลังกายของมนุษย์มาใช้เป็นพลังงานทดแทนในการผลิต ไฟฟ้าด้วยจักรยานปั่นรูปแบบต่าง ๆ ที่ใช้ทั้งวิทยาศาสตร์ เทคโนโลยี กระบวนการทางวิศวกรรมศาสตร์และคณิตศาสตร์ แก้ปัญหาที่เชื่อมโยงกับชีวิตจริง มุ่งสู่การสร้างนวัตกรรมด้านพลังงานในอนาคต"
+            
+                                                },
+                                                {
+                                                    "type": "exh",
+                                                    "top": "23",
+                                                    "left": "89",
+                                                    "key": ["stove1","stove2"],
+                                                    "title": "เตาประสิทธิภาพสูง (Rocket Stove)",
+                                                    "subtitle": "ชีวมวล(Biomass)",
+                                                    "th": "ชีวมวลเป็นสารอินทรีย์ที่ได้จากสิ่งมีชีวิต เช่น เศษไม้ วัสดุทางการเกษตร สามารถใช้เป็นเชื้อเพลิง เพื่อผลิตพลังงานด้วยกระบวนการต่าง ๆ การใช้เตาประสิทธิภาพสูง Rocket Stove เป็นวิธีหนึ่งในการผลิต ความร้อนโดยการเผาไหม้เชื้อเพลิงชีวมวล มีการเผาไหมสมบูรณ์ ลดการปล่อยแก๊สมลพิษทางอากาศ มักใช้ฟืน เป็นเชื้อเพลิงและใช้จำนวนน้อย ช่วยลดค่าใช้จ่ายในครัวเรือนได้",
+                                                    "en": "Biomass, such as wood residues and agricultural products, is fuel from living organisms. It can be used to create various types of energy in a variety of ways. A rocket stove is an efficient cooking device to produce heat by burning biomass fuels. There is clean and efficient combustion process, so it reduces harmful emissions. The rocket stove uses less firewood or thin sticks as fuel, therefore, reduces household expense."
+                                            
+                                                },
+                                                {
+                                                    "type": "graph",
+                                                    "top": "57",
+                                                    "left": "74",
+                                                    "key": ["kWh-พลังงานไฟฟ้า","W-กำลังไฟฟ้า","T-อุณหภูมิ"],
+                                                    "percent": ["30","40","85"],
+                                                    "th": "การปั่นสร้างพลังงาน เป็นการนำพลังงานที่ได้จากการออกกำลังกายของมนุษย์มาใช้เป็นพลังงานทดแทนในการผลิต ไฟฟ้าด้วยจักรยานปั่นรูปแบบต่าง ๆ ที่ใช้ทั้งวิทยาศาสตร์ เทคโนโลยี กระบวนการทางวิศวกรรมศาสตร์และคณิตศาสตร์ แก้ปัญหาที่เชื่อมโยงกับชีวิตจริง มุ่งสู่การสร้างนวัตกรรมด้านพลังงานในอนาคต"
+            
+                                                }
+                                            ]
+                                    }
+                                },
+                                {
+                                    "id": "weather012",   
+                                    "name": "รังสิต",
+                                    "indoors":{
+                                        "bg" : "img/indoor/bg_indoor.png",
+                                        "list": [ 
+                                        {
+                                            "type": "link", 
+                                            "top": "51.5",
+                                            "left": "10.3",
+                                            "key": ["http://csrs.ku.ac.th/files/energy_exhibition/game/01"]
+                                        },
+                                        {
+                                            "type": "link",  
+                                            "top": "48.8",
+                                            "left": "26.8",
+                                            "key": ["http://csrs.ku.ac.th/files/energy_exhibition/game/02"]
+                                        },
+                                        {
+                                            "type": "link",  
+                                            "top": "48",
+                                            "left": "36.6",
+                                            "key": ["http://csrs.ku.ac.th/devices?ID=weather012"]
+                                        },
+                                        {
+                                            "type": "link",  
+                                            "top": "49",
+                                            "left": "50.7",
+                                            "key": ["http://csrs.ku.ac.th/files/energy_exhibition/game/03"]
+                                        },
+                                        {
+                                            "type": "link", 
+                                            "top": "51.8",
+                                            "left": "72",
+                                            "key": ["http://csrs.ku.ac.th/files/energy_exhibition/game/04"]
+                                        }
+                                    ]},
+                                    "outdoors": {
+                                        "bg" : "img/outdoor/bg_outdoor.png",
+                                        "list" : [
+                                                {
+                                                    "type": "exh",
+                                                    "top": "22",
+                                                    "left": "33.5",
+                                                    "key": ["b-1","b-2","b-3","b-4"],
+                                                    "title":"จักรยานปั่นออกกำลังกาย",
+                                                    "subtitle":"ปั่นสร้างพลังงาน(Bicycle Generator)",
+                                                    "th": "การปั่นสร้างพลังงาน เป็นการนำพลังงานที่ได้จากการออกกำลังกายของมนุษย์มาใช้เป็นพลังงานทดแทนในการผลิต ไฟฟ้าด้วยจักรยานปั่นรูปแบบต่าง ๆ ที่ใช้ทั้งวิทยาศาสตร์ เทคโนโลยี กระบวนการทางวิศวกรรมศาสตร์และคณิตศาสตร์ แก้ปัญหาที่เชื่อมโยงกับชีวิตจริง มุ่งสู่การสร้างนวัตกรรมด้านพลังงานในอนาคต",
+                                                    "en": "A bicycle generator is an exercising machine using  human power to generate electricity. It can be designed in various features from a used bicycle on your own. The invention corresponds to science, technology, engineering and mathematics  for  solving problems related to everyday life towards energy innovation."
+                                                },
+                                                {
+                                                    "type": "graph",
+                                                    "top": "16",
+                                                    "left": "43",
+                                                    "key": ["kWh-พลังงานไฟฟ้า","W-กำลังไฟฟ้า"],
+                                                    "percent": ["0","0.3"],
+                                                    "th": "การปั่นสร้างพลังงาน เป็นการนำพลังงานที่ได้จากการออกกำลังกายของมนุษย์มาใช้เป็นพลังงานทดแทนในการผลิต ไฟฟ้าด้วยจักรยานปั่นรูปแบบต่าง ๆ ที่ใช้ทั้งวิทยาศาสตร์ เทคโนโลยี กระบวนการทางวิศวกรรมศาสตร์และคณิตศาสตร์ แก้ปัญหาที่เชื่อมโยงกับชีวิตจริง มุ่งสู่การสร้างนวัตกรรมด้านพลังงานในอนาคต"
+            
+                                                },
+                                                {
+                                                    "type": "graph",
+                                                    "top": "16",
+                                                    "left": "50.2",
+                                                    "key": ["kWh-พลังงานไฟฟ้า","W-กำลังไฟฟ้า"],
+                                                    "percent": ["30","35"],
+                                                    "th": "การปั่นสร้างพลังงาน เป็นการนำพลังงานที่ได้จากการออกกำลังกายของมนุษย์มาใช้เป็นพลังงานทดแทนในการผลิต ไฟฟ้าด้วยจักรยานปั่นรูปแบบต่าง ๆ ที่ใช้ทั้งวิทยาศาสตร์ เทคโนโลยี กระบวนการทางวิศวกรรมศาสตร์และคณิตศาสตร์ แก้ปัญหาที่เชื่อมโยงกับชีวิตจริง มุ่งสู่การสร้างนวัตกรรมด้านพลังงานในอนาคต"
+            
+                                                },
+                                                {
+                                                    "type": "graph",
+                                                    "top": "16",
+                                                    "left": "57.5",
+                                                    "key": ["kWh-พลังงานไฟฟ้า","W-กำลังไฟฟ้า"],
+                                                    "percent": ["30","35"],
+                                                    "th": "การปั่นสร้างพลังงาน เป็นการนำพลังงานที่ได้จากการออกกำลังกายของมนุษย์มาใช้เป็นพลังงานทดแทนในการผลิต ไฟฟ้าด้วยจักรยานปั่นรูปแบบต่าง ๆ ที่ใช้ทั้งวิทยาศาสตร์ เทคโนโลยี กระบวนการทางวิศวกรรมศาสตร์และคณิตศาสตร์ แก้ปัญหาที่เชื่อมโยงกับชีวิตจริง มุ่งสู่การสร้างนวัตกรรมด้านพลังงานในอนาคต"
+            
+                                                },
+                                                {
+                                                    "type": "exh",
+                                                    "top": "24",
+                                                    "left": "6",
+                                                    "key": ["solar1","solar2"],
+                                                    "title": "Solar flower",
+                                                    "subtitle": "",
+                                                    "th": "พลังงานแสงอาทิตย์ เป็นพลังงานจากการแผ่รังสีของดวงอาทิตย์ที่ส่งมายังโลก ให้ทั้งพลังงานแสงและความร้อน ประเทศไทยตั้งอยู่ในเขตเส้นศูนย์สูตรจึงได้รับแสงอาทิตย์อย่างต่อเนื่องและคงที่ตลอดปี ถือว่ามีศักยภาพ พลังงานแสงอาทิตย์ค่อนข้างสูง พื้นที่ทั่วประเทศได้รับความเข้มรังสีรวมของดวงอาทิตย์รายวันเฉลี่ยต่อปี 18.0 MJ/m2-day หรือ 5 kWh/m2-day",
+                                                    "en": "Solar energy is energy obtained from the sun's radiation in the forms of heat and light. It is said that Thailand has high solar potential due to the location in the tropical area. The average solar radiation in Thailand is about 18.0 MJ/m -day or about 5 kWh/m2 -day."
+                                            
+                                                },
+                                                {
+                                                    "type": "graph",
+                                                    "top": "17.5",
+                                                    "left": "23",
+                                                    "key": ["kWh-พลังงานไฟฟ้า","W-กำลังไฟฟ้า"],
+                                                    "percent": ["30","35"],
+                                                    "th": "การปั่นสร้างพลังงาน เป็นการนำพลังงานที่ได้จากการออกกำลังกายของมนุษย์มาใช้เป็นพลังงานทดแทนในการผลิต ไฟฟ้าด้วยจักรยานปั่นรูปแบบต่าง ๆ ที่ใช้ทั้งวิทยาศาสตร์ เทคโนโลยี กระบวนการทางวิศวกรรมศาสตร์และคณิตศาสตร์ แก้ปัญหาที่เชื่อมโยงกับชีวิตจริง มุ่งสู่การสร้างนวัตกรรมด้านพลังงานในอนาคต"
+            
+                                                },
+                                                {
+                                                    "type": "exh",
+                                                    "top": "23",
+                                                    "left": "89",
+                                                    "key": ["stove1","stove2"],
+                                                    "title": "เตาประสิทธิภาพสูง (Rocket Stove)",
+                                                    "subtitle": "ชีวมวล(Biomass)",
+                                                    "th": "ชีวมวลเป็นสารอินทรีย์ที่ได้จากสิ่งมีชีวิต เช่น เศษไม้ วัสดุทางการเกษตร สามารถใช้เป็นเชื้อเพลิง เพื่อผลิตพลังงานด้วยกระบวนการต่าง ๆ การใช้เตาประสิทธิภาพสูง Rocket Stove เป็นวิธีหนึ่งในการผลิต ความร้อนโดยการเผาไหม้เชื้อเพลิงชีวมวล มีการเผาไหมสมบูรณ์ ลดการปล่อยแก๊สมลพิษทางอากาศ มักใช้ฟืน เป็นเชื้อเพลิงและใช้จำนวนน้อย ช่วยลดค่าใช้จ่ายในครัวเรือนได้",
+                                                    "en": "Biomass, such as wood residues and agricultural products, is fuel from living organisms. It can be used to create various types of energy in a variety of ways. A rocket stove is an efficient cooking device to produce heat by burning biomass fuels. There is clean and efficient combustion process, so it reduces harmful emissions. The rocket stove uses less firewood or thin sticks as fuel, therefore, reduces household expense."
+                                            
+                                                },
+                                                {
+                                                    "type": "graph",
+                                                    "top": "57",
+                                                    "left": "74",
+                                                    "key": ["kWh-พลังงานไฟฟ้า","W-กำลังไฟฟ้า","T-อุณหภูมิ"],
+                                                    "percent": ["30","40","85"],
+                                                    "th": "การปั่นสร้างพลังงาน เป็นการนำพลังงานที่ได้จากการออกกำลังกายของมนุษย์มาใช้เป็นพลังงานทดแทนในการผลิต ไฟฟ้าด้วยจักรยานปั่นรูปแบบต่าง ๆ ที่ใช้ทั้งวิทยาศาสตร์ เทคโนโลยี กระบวนการทางวิศวกรรมศาสตร์และคณิตศาสตร์ แก้ปัญหาที่เชื่อมโยงกับชีวิตจริง มุ่งสู่การสร้างนวัตกรรมด้านพลังงานในอนาคต"
+            
+                                                }
+                                            ]
+                                    }
+                                },
+                                {
+                                    "id": "weather013",
+                                    "name": "ร้อยเอ็ด",    
+                                    "indoors":{
+                                        "bg" : "img/indoor/bg_indoor.png",
+                                        "list": [ 
+                                         {
+                                            "type": "link", 
+                                            "top": "51.5",
+                                            "left": "10.3",
+                                            "key": ["http://csrs.ku.ac.th/files/energy_exhibition/game/01"]
+                                        },
+                                        {
+                                            "type": "link",  
+                                            "top": "48.8",
+                                            "left": "26.8",
+                                            "key": ["http://csrs.ku.ac.th/files/energy_exhibition/game/02"]
+                                        },
+                                        {
+                                            "type": "link",  
+                                            "top": "48",
+                                            "left": "36.6",
+                                            "key": ["http://csrs.ku.ac.th/devices?ID=weather013"]
+                                        },
+                                        {
+                                            "type": "link",  
+                                            "top": "49",
+                                            "left": "50.7",
+                                            "key": ["http://csrs.ku.ac.th/files/energy_exhibition/game/03"]
+                                        },
+                                        {
+                                            "type": "link", 
+                                            "top": "51.8",
+                                            "left": "72",
+                                            "key": ["http://csrs.ku.ac.th/files/energy_exhibition/game/04"]
+                                        }
+                                    ]},
+                                    "outdoors": {
+                                        "bg" : "img/outdoor/bg_outdoor.png",
+                                        "list" : [
+                                                {
+                                                    "type": "exh",
+                                                    "top": "22",
+                                                    "left": "33.5",
+                                                    "key": ["b-1","b-2","b-3","b-4"],
+                                                    "title":"จักรยานปั่นออกกำลังกาย",
+                                                    "subtitle":"ปั่นสร้างพลังงาน(Bicycle Generator)",
+                                                    "th": "การปั่นสร้างพลังงาน เป็นการนำพลังงานที่ได้จากการออกกำลังกายของมนุษย์มาใช้เป็นพลังงานทดแทนในการผลิต ไฟฟ้าด้วยจักรยานปั่นรูปแบบต่าง ๆ ที่ใช้ทั้งวิทยาศาสตร์ เทคโนโลยี กระบวนการทางวิศวกรรมศาสตร์และคณิตศาสตร์ แก้ปัญหาที่เชื่อมโยงกับชีวิตจริง มุ่งสู่การสร้างนวัตกรรมด้านพลังงานในอนาคต",
+                                                    "en": "A bicycle generator is an exercising machine using  human power to generate electricity. It can be designed in various features from a used bicycle on your own. The invention corresponds to science, technology, engineering and mathematics  for  solving problems related to everyday life towards energy innovation."
+                                                },
+                                                {
+                                                    "type": "graph",
+                                                    "top": "16",
+                                                    "left": "43",
+                                                    "key": ["kWh-พลังงานไฟฟ้า","W-กำลังไฟฟ้า"],
+                                                    "percent": ["30","35"],
+                                                    "th": "การปั่นสร้างพลังงาน เป็นการนำพลังงานที่ได้จากการออกกำลังกายของมนุษย์มาใช้เป็นพลังงานทดแทนในการผลิต ไฟฟ้าด้วยจักรยานปั่นรูปแบบต่าง ๆ ที่ใช้ทั้งวิทยาศาสตร์ เทคโนโลยี กระบวนการทางวิศวกรรมศาสตร์และคณิตศาสตร์ แก้ปัญหาที่เชื่อมโยงกับชีวิตจริง มุ่งสู่การสร้างนวัตกรรมด้านพลังงานในอนาคต"
+            
+                                                },
+                                                {
+                                                    "type": "graph",
+                                                    "top": "16",
+                                                    "left": "50.2",
+                                                    "key": ["kWh-พลังงานไฟฟ้า","W-กำลังไฟฟ้า"],
+                                                    "percent": ["30","35"],
+                                                    "th": "การปั่นสร้างพลังงาน เป็นการนำพลังงานที่ได้จากการออกกำลังกายของมนุษย์มาใช้เป็นพลังงานทดแทนในการผลิต ไฟฟ้าด้วยจักรยานปั่นรูปแบบต่าง ๆ ที่ใช้ทั้งวิทยาศาสตร์ เทคโนโลยี กระบวนการทางวิศวกรรมศาสตร์และคณิตศาสตร์ แก้ปัญหาที่เชื่อมโยงกับชีวิตจริง มุ่งสู่การสร้างนวัตกรรมด้านพลังงานในอนาคต"
+            
+                                                },
+                                                {
+                                                    "type": "graph",
+                                                    "top": "16",
+                                                    "left": "57.5",
+                                                    "key": ["kWh-พลังงานไฟฟ้า","W-กำลังไฟฟ้า"],
+                                                    "percent": ["30","35"],
+                                                    "th": "การปั่นสร้างพลังงาน เป็นการนำพลังงานที่ได้จากการออกกำลังกายของมนุษย์มาใช้เป็นพลังงานทดแทนในการผลิต ไฟฟ้าด้วยจักรยานปั่นรูปแบบต่าง ๆ ที่ใช้ทั้งวิทยาศาสตร์ เทคโนโลยี กระบวนการทางวิศวกรรมศาสตร์และคณิตศาสตร์ แก้ปัญหาที่เชื่อมโยงกับชีวิตจริง มุ่งสู่การสร้างนวัตกรรมด้านพลังงานในอนาคต"
+            
+                                                },
+                                                {
+                                                    "type": "exh",
+                                                    "top": "24",
+                                                    "left": "6",
+                                                    "key": ["solar1","solar2"],
+                                                    "title": "Solar flower",
+                                                    "subtitle": "",
+                                                    "th": "พลังงานแสงอาทิตย์ เป็นพลังงานจากการแผ่รังสีของดวงอาทิตย์ที่ส่งมายังโลก ให้ทั้งพลังงานแสงและความร้อน ประเทศไทยตั้งอยู่ในเขตเส้นศูนย์สูตรจึงได้รับแสงอาทิตย์อย่างต่อเนื่องและคงที่ตลอดปี ถือว่ามีศักยภาพ พลังงานแสงอาทิตย์ค่อนข้างสูง พื้นที่ทั่วประเทศได้รับความเข้มรังสีรวมของดวงอาทิตย์รายวันเฉลี่ยต่อปี 18.0 MJ/m2-day หรือ 5 kWh/m2-day",
+                                                    "en": "Solar energy is energy obtained from the sun's radiation in the forms of heat and light. It is said that Thailand has high solar potential due to the location in the tropical area. The average solar radiation in Thailand is about 18.0 MJ/m -day or about 5 kWh/m2 -day."
+                                            
+                                                },
+                                                {
+                                                    "type": "graph",
+                                                    "top": "17.5",
+                                                    "left": "23",
+                                                    "key": ["kWh-พลังงานไฟฟ้า","W-กำลังไฟฟ้า"],
+                                                    "percent": ["30","35"],
+                                                    "th": "การปั่นสร้างพลังงาน เป็นการนำพลังงานที่ได้จากการออกกำลังกายของมนุษย์มาใช้เป็นพลังงานทดแทนในการผลิต ไฟฟ้าด้วยจักรยานปั่นรูปแบบต่าง ๆ ที่ใช้ทั้งวิทยาศาสตร์ เทคโนโลยี กระบวนการทางวิศวกรรมศาสตร์และคณิตศาสตร์ แก้ปัญหาที่เชื่อมโยงกับชีวิตจริง มุ่งสู่การสร้างนวัตกรรมด้านพลังงานในอนาคต"
+            
+                                                },
+                                                {
+                                                    "type": "exh",
+                                                    "top": "23",
+                                                    "left": "89",
+                                                    "key": ["stove1","stove2"],
+                                                    "title": "เตาประสิทธิภาพสูง (Rocket Stove)",
+                                                    "subtitle": "ชีวมวล(Biomass)",
+                                                    "th": "ชีวมวลเป็นสารอินทรีย์ที่ได้จากสิ่งมีชีวิต เช่น เศษไม้ วัสดุทางการเกษตร สามารถใช้เป็นเชื้อเพลิง เพื่อผลิตพลังงานด้วยกระบวนการต่าง ๆ การใช้เตาประสิทธิภาพสูง Rocket Stove เป็นวิธีหนึ่งในการผลิต ความร้อนโดยการเผาไหม้เชื้อเพลิงชีวมวล มีการเผาไหมสมบูรณ์ ลดการปล่อยแก๊สมลพิษทางอากาศ มักใช้ฟืน เป็นเชื้อเพลิงและใช้จำนวนน้อย ช่วยลดค่าใช้จ่ายในครัวเรือนได้",
+                                                    "en": "Biomass, such as wood residues and agricultural products, is fuel from living organisms. It can be used to create various types of energy in a variety of ways. A rocket stove is an efficient cooking device to produce heat by burning biomass fuels. There is clean and efficient combustion process, so it reduces harmful emissions. The rocket stove uses less firewood or thin sticks as fuel, therefore, reduces household expense."
+                                            
+                                                },
+                                                {
+                                                    "type": "graph",
+                                                    "top": "57",
+                                                    "left": "74",
+                                                    "key": ["kWh-พลังงานไฟฟ้า","W-กำลังไฟฟ้า","T-อุณหภูมิ"],
+                                                     "th": "การปั่นสร้างพลังงาน เป็นการนำพลังงานที่ได้จากการออกกำลังกายของมนุษย์มาใช้เป็นพลังงานทดแทนในการผลิต ไฟฟ้าด้วยจักรยานปั่นรูปแบบต่าง ๆ ที่ใช้ทั้งวิทยาศาสตร์ เทคโนโลยี กระบวนการทางวิศวกรรมศาสตร์และคณิตศาสตร์ แก้ปัญหาที่เชื่อมโยงกับชีวิตจริง มุ่งสู่การสร้างนวัตกรรมด้านพลังงานในอนาคต"
+            
+                                                }
+                                            ]
+                                    }
+                                },
+                                {
+                                    "id": "planetarium",   
+                                    "name": "เอกมัย",
+                                    "indoors":{
+                                        "bg" : "img/indoor/bg_indoor.png",
+                                        "list": [ 
+                                        {
+                                            "type": "link", 
+                                            "top": "51.5",
+                                            "left": "10.3",
+                                            "key": ["http://csrs.ku.ac.th/files/energy_exhibition/game/01"]
+                                        },
+                                        {
+                                            "type": "link",  
+                                            "top": "48.8",
+                                            "left": "26.8",
+                                            "key": ["http://csrs.ku.ac.th/files/energy_exhibition/game/02"]
+                                        },
+                                        {
+                                            "type": "link",  
+                                            "top": "48",
+                                            "left": "36.6",
+                                            "key": ["http://csrs.ku.ac.th/devices?ID=planetarium"]
+                                        },
+                                        {
+                                            "type": "link",  
+                                            "top": "49",
+                                            "left": "50.7",
+                                            "key": ["http://csrs.ku.ac.th/files/energy_exhibition/game/03"]
+                                        },
+                                        {
+                                            "type": "link", 
+                                            "top": "51.8",
+                                            "left": "72",
+                                            "key": ["http://csrs.ku.ac.th/files/energy_exhibition/game/04"]
+                                        }
+                                    ]},
+                                    "outdoors": {
+                                        "bg" : "img/outdoor/bg_outdoor.png",
+                                        "list" : [
+                                                {
+                                                    "type": "exh",
+                                                    "top": "22",
+                                                    "left": "33.5",
+                                                    "key": ["b-1","b-2","b-3","b-4"],
+                                                    "title":"จักรยานปั่นออกกำลังกาย",
+                                                    "subtitle":"ปั่นสร้างพลังงาน(Bicycle Generator)",
+                                                    "th": "การปั่นสร้างพลังงาน เป็นการนำพลังงานที่ได้จากการออกกำลังกายของมนุษย์มาใช้เป็นพลังงานทดแทนในการผลิต ไฟฟ้าด้วยจักรยานปั่นรูปแบบต่าง ๆ ที่ใช้ทั้งวิทยาศาสตร์ เทคโนโลยี กระบวนการทางวิศวกรรมศาสตร์และคณิตศาสตร์ แก้ปัญหาที่เชื่อมโยงกับชีวิตจริง มุ่งสู่การสร้างนวัตกรรมด้านพลังงานในอนาคต",
+                                                    "en": "A bicycle generator is an exercising machine using  human power to generate electricity. It can be designed in various features from a used bicycle on your own. The invention corresponds to science, technology, engineering and mathematics  for  solving problems related to everyday life towards energy innovation."
+                                                },
+                                                {
+                                                    "type": "graph",
+                                                    "top": "16",
+                                                    "left": "43",
+                                                    "key": ["kWh-พลังงานไฟฟ้า","W-กำลังไฟฟ้า"],
+                                                    "percent": ["30","35"],
+                                                    "th": "การปั่นสร้างพลังงาน เป็นการนำพลังงานที่ได้จากการออกกำลังกายของมนุษย์มาใช้เป็นพลังงานทดแทนในการผลิต ไฟฟ้าด้วยจักรยานปั่นรูปแบบต่าง ๆ ที่ใช้ทั้งวิทยาศาสตร์ เทคโนโลยี กระบวนการทางวิศวกรรมศาสตร์และคณิตศาสตร์ แก้ปัญหาที่เชื่อมโยงกับชีวิตจริง มุ่งสู่การสร้างนวัตกรรมด้านพลังงานในอนาคต"
+            
+                                                },
+                                                {
+                                                    "type": "graph",
+                                                    "top": "16",
+                                                    "left": "50.2",
+                                                    "key": ["kWh-พลังงานไฟฟ้า","W-กำลังไฟฟ้า"],
+                                                    "percent": ["30","35"],
+                                                    "th": "การปั่นสร้างพลังงาน เป็นการนำพลังงานที่ได้จากการออกกำลังกายของมนุษย์มาใช้เป็นพลังงานทดแทนในการผลิต ไฟฟ้าด้วยจักรยานปั่นรูปแบบต่าง ๆ ที่ใช้ทั้งวิทยาศาสตร์ เทคโนโลยี กระบวนการทางวิศวกรรมศาสตร์และคณิตศาสตร์ แก้ปัญหาที่เชื่อมโยงกับชีวิตจริง มุ่งสู่การสร้างนวัตกรรมด้านพลังงานในอนาคต"
+            
+                                                },
+                                                {
+                                                    "type": "graph",
+                                                    "top": "16",
+                                                    "left": "57.5",
+                                                    "key": ["kWh-พลังงานไฟฟ้า","W-กำลังไฟฟ้า"],
+                                                    "percent": ["30","35"],
+                                                    "th": "การปั่นสร้างพลังงาน เป็นการนำพลังงานที่ได้จากการออกกำลังกายของมนุษย์มาใช้เป็นพลังงานทดแทนในการผลิต ไฟฟ้าด้วยจักรยานปั่นรูปแบบต่าง ๆ ที่ใช้ทั้งวิทยาศาสตร์ เทคโนโลยี กระบวนการทางวิศวกรรมศาสตร์และคณิตศาสตร์ แก้ปัญหาที่เชื่อมโยงกับชีวิตจริง มุ่งสู่การสร้างนวัตกรรมด้านพลังงานในอนาคต"
+            
+                                                },
+                                                {
+                                                    "type": "exh",
+                                                    "top": "24",
+                                                    "left": "6",
+                                                    "key": ["solar1","solar2"],
+                                                    "title": "Solar flower",
+                                                    "subtitle": "",
+                                                    "th": "พลังงานแสงอาทิตย์ เป็นพลังงานจากการแผ่รังสีของดวงอาทิตย์ที่ส่งมายังโลก ให้ทั้งพลังงานแสงและความร้อน ประเทศไทยตั้งอยู่ในเขตเส้นศูนย์สูตรจึงได้รับแสงอาทิตย์อย่างต่อเนื่องและคงที่ตลอดปี ถือว่ามีศักยภาพ พลังงานแสงอาทิตย์ค่อนข้างสูง พื้นที่ทั่วประเทศได้รับความเข้มรังสีรวมของดวงอาทิตย์รายวันเฉลี่ยต่อปี 18.0 MJ/m2-day หรือ 5 kWh/m2-day",
+                                                    "en": "Solar energy is energy obtained from the sun's radiation in the forms of heat and light. It is said that Thailand has high solar potential due to the location in the tropical area. The average solar radiation in Thailand is about 18.0 MJ/m -day or about 5 kWh/m2 -day."
+                                            
+                                                },
+                                                {
+                                                    "type": "graph",
+                                                    "top": "17.5",
+                                                    "left": "23",
+                                                    "key": ["kWh-พลังงานไฟฟ้า","W-กำลังไฟฟ้า"],
+                                                    "percent": ["30","35"],
+                                                    "th": "การปั่นสร้างพลังงาน เป็นการนำพลังงานที่ได้จากการออกกำลังกายของมนุษย์มาใช้เป็นพลังงานทดแทนในการผลิต ไฟฟ้าด้วยจักรยานปั่นรูปแบบต่าง ๆ ที่ใช้ทั้งวิทยาศาสตร์ เทคโนโลยี กระบวนการทางวิศวกรรมศาสตร์และคณิตศาสตร์ แก้ปัญหาที่เชื่อมโยงกับชีวิตจริง มุ่งสู่การสร้างนวัตกรรมด้านพลังงานในอนาคต"
+            
+                                                },
+                                                {
+                                                    "type": "exh",
+                                                    "top": "23",
+                                                    "left": "89",
+                                                    "key": ["stove1","stove2"],
+                                                    "title": "เตาประสิทธิภาพสูง (Rocket Stove)",
+                                                    "subtitle": "ชีวมวล(Biomass)",
+                                                    "th": "ชีวมวลเป็นสารอินทรีย์ที่ได้จากสิ่งมีชีวิต เช่น เศษไม้ วัสดุทางการเกษตร สามารถใช้เป็นเชื้อเพลิง เพื่อผลิตพลังงานด้วยกระบวนการต่าง ๆ การใช้เตาประสิทธิภาพสูง Rocket Stove เป็นวิธีหนึ่งในการผลิต ความร้อนโดยการเผาไหม้เชื้อเพลิงชีวมวล มีการเผาไหมสมบูรณ์ ลดการปล่อยแก๊สมลพิษทางอากาศ มักใช้ฟืน เป็นเชื้อเพลิงและใช้จำนวนน้อย ช่วยลดค่าใช้จ่ายในครัวเรือนได้",
+                                                    "en": "Biomass, such as wood residues and agricultural products, is fuel from living organisms. It can be used to create various types of energy in a variety of ways. A rocket stove is an efficient cooking device to produce heat by burning biomass fuels. There is clean and efficient combustion process, so it reduces harmful emissions. The rocket stove uses less firewood or thin sticks as fuel, therefore, reduces household expense."
+                                            
+                                                },
+                                                {
+                                                    "type": "graph",
+                                                    "top": "57",
+                                                    "left": "74",
+                                                    "key": ["kWh-พลังงานไฟฟ้า","W-กำลังไฟฟ้า","T-อุณหภูมิ"],
+                                                    "percent": ["30","40","85"],
+                                                    "th": "การปั่นสร้างพลังงาน เป็นการนำพลังงานที่ได้จากการออกกำลังกายของมนุษย์มาใช้เป็นพลังงานทดแทนในการผลิต ไฟฟ้าด้วยจักรยานปั่นรูปแบบต่าง ๆ ที่ใช้ทั้งวิทยาศาสตร์ เทคโนโลยี กระบวนการทางวิศวกรรมศาสตร์และคณิตศาสตร์ แก้ปัญหาที่เชื่อมโยงกับชีวิตจริง มุ่งสู่การสร้างนวัตกรรมด้านพลังงานในอนาคต"
+            
+                                                }
+                                            ]
+                                    }
+                                }
+
+   ]
+}

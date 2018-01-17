@@ -1,0 +1,141 @@
+[
+                    {
+                        "id": "weather006",
+                        "name": 'ศูนย์วิทย์1',
+                        "indoors":{
+                            "list": [ 
+                            {
+                                type: "exh",
+                                top: "22",
+                                left: "33.5",
+                                key: ["http://csrs.ku.ac.th/files/energy_exhibition/game/01"],
+                                title:"จักรยานปั่นออกกำลังกาย",
+                                subtitle:"ปั่นสร้างพลังงาน(Bicycle Generator)",
+                                th: "การปั่นสร้างพลังงาน เป็นการนำพลังงานที่ได้จากการออกกำลังกายของมนุษย์มาใช้เป็นพลังงานทดแทนในการผลิต ไฟฟ้าด้วยจักรยานปั่นรูปแบบต่าง ๆ ที่ใช้ทั้งวิทยาศาสตร์ เทคโนโลยี กระบวนการทางวิศวกรรมศาสตร์และคณิตศาสตร์ แก้ปัญหาที่เชื่อมโยงกับชีวิตจริง มุ่งสู่การสร้างนวัตกรรมด้านพลังงานในอนาคต",
+                                en: "A bicycle generator is an exercising machine using  human power to generate electricity. It can be designed in various features from a used bicycle on your own. The invention corresponds to science, technology, engineering and mathematics  for  solving problems related to everyday life towards energy innovation."
+                            },
+                            {
+                                type: "exh",
+                                top: "16",
+                                left: "43",
+                                key: ["http://csrs.ku.ac.th/files/energy_exhibition/game/02],
+                                title:"จักรยานปั่นออกกำลังกาย",
+                                subtitle:"ปั่นสร้างพลังงาน(Bicycle Generator)",
+                                th: "การปั่นสร้างพลังงาน เป็นการนำพลังงานที่ได้จากการออกกำลังกายของมนุษย์มาใช้เป็นพลังงานทดแทนในการผลิต ไฟฟ้าด้วยจักรยานปั่นรูปแบบต่าง ๆ ที่ใช้ทั้งวิทยาศาสตร์ เทคโนโลยี กระบวนการทางวิศวกรรมศาสตร์และคณิตศาสตร์ แก้ปัญหาที่เชื่อมโยงกับชีวิตจริง มุ่งสู่การสร้างนวัตกรรมด้านพลังงานในอนาคต",
+                                en: "A bicycle generator is an exercising machine using  human power to generate electricity. It can be designed in various features from a used bicycle on your own. The invention corresponds to science, technology, engineering and mathematics  for  solving problems related to everyday life towards energy innovation."
+                            },
+                            {
+                                type: "exh",
+                                top: "42",
+                                left: "33.5",
+                                key: ["http://csrs.ku.ac.th/files/energy_exhibition/game/01"],
+                                title:"จักรยานปั่นออกกำลังกาย",
+                                subtitle:"ปั่นสร้างพลังงาน(Bicycle Generator)",
+                                th: "การปั่นสร้างพลังงาน เป็นการนำพลังงานที่ได้จากการออกกำลังกายของมนุษย์มาใช้เป็นพลังงานทดแทนในการผลิต ไฟฟ้าด้วยจักรยานปั่นรูปแบบต่าง ๆ ที่ใช้ทั้งวิทยาศาสตร์ เทคโนโลยี กระบวนการทางวิศวกรรมศาสตร์และคณิตศาสตร์ แก้ปัญหาที่เชื่อมโยงกับชีวิตจริง มุ่งสู่การสร้างนวัตกรรมด้านพลังงานในอนาคต",
+                                en: "A bicycle generator is an exercising machine using  human power to generate electricity. It can be designed in various features from a used bicycle on your own. The invention corresponds to science, technology, engineering and mathematics  for  solving problems related to everyday life towards energy innovation."
+                            },
+                            {
+                                type: "exh",
+                                top: "16",
+                                left: "53",
+                                key: ["http://csrs.ku.ac.th/files/energy_exhibition/game/03"],
+                                title:"จักรยานปั่นออกกำลังกาย",
+                                subtitle:"ปั่นสร้างพลังงาน(Bicycle Generator)",
+                                th: "การปั่นสร้างพลังงาน เป็นการนำพลังงานที่ได้จากการออกกำลังกายของมนุษย์มาใช้เป็นพลังงานทดแทนในการผลิต ไฟฟ้าด้วยจักรยานปั่นรูปแบบต่าง ๆ ที่ใช้ทั้งวิทยาศาสตร์ เทคโนโลยี กระบวนการทางวิศวกรรมศาสตร์และคณิตศาสตร์ แก้ปัญหาที่เชื่อมโยงกับชีวิตจริง มุ่งสู่การสร้างนวัตกรรมด้านพลังงานในอนาคต",
+                                en: "A bicycle generator is an exercising machine using  human power to generate electricity. It can be designed in various features from a used bicycle on your own. The invention corresponds to science, technology, engineering and mathematics  for  solving problems related to everyday life towards energy innovation."
+                            }
+                            {
+                                type: "exh",
+                                top: "51.8",
+                                left: "72",
+                                key: ["http://csrs.ku.ac.th/files/energy_exhibition/game/04"],
+                                title:"จักรยานปั่นออกกำลังกาย",
+                                subtitle:"ปั่นสร้างพลังงาน(Bicycle Generator)",
+                                th: "การปั่นสร้างพลังงาน เป็นการนำพลังงานที่ได้จากการออกกำลังกายของมนุษย์มาใช้เป็นพลังงานทดแทนในการผลิต ไฟฟ้าด้วยจักรยานปั่นรูปแบบต่าง ๆ ที่ใช้ทั้งวิทยาศาสตร์ เทคโนโลยี กระบวนการทางวิศวกรรมศาสตร์และคณิตศาสตร์ แก้ปัญหาที่เชื่อมโยงกับชีวิตจริง มุ่งสู่การสร้างนวัตกรรมด้านพลังงานในอนาคต",
+                                en: "A bicycle generator is an exercising machine using  human power to generate electricity. It can be designed in various features from a used bicycle on your own. The invention corresponds to science, technology, engineering and mathematics  for  solving problems related to everyday life towards energy innovation."
+                            }
+                        ]},
+                        "outdoors": {
+                            "list" : [
+                                    {
+                                        type: "exh",
+                                        top: "22",
+                                        left: "33.5",
+                                        key: ["b-1","b-2","b-3","b-4"],
+                                        title:"จักรยานปั่นออกกำลังกาย",
+                                        subtitle:"ปั่นสร้างพลังงาน(Bicycle Generator)",
+                                        th: "การปั่นสร้างพลังงาน เป็นการนำพลังงานที่ได้จากการออกกำลังกายของมนุษย์มาใช้เป็นพลังงานทดแทนในการผลิต ไฟฟ้าด้วยจักรยานปั่นรูปแบบต่าง ๆ ที่ใช้ทั้งวิทยาศาสตร์ เทคโนโลยี กระบวนการทางวิศวกรรมศาสตร์และคณิตศาสตร์ แก้ปัญหาที่เชื่อมโยงกับชีวิตจริง มุ่งสู่การสร้างนวัตกรรมด้านพลังงานในอนาคต",
+                                        en: "A bicycle generator is an exercising machine using  human power to generate electricity. It can be designed in various features from a used bicycle on your own. The invention corresponds to science, technology, engineering and mathematics  for  solving problems related to everyday life towards energy innovation."
+                                    },
+                                    {
+                                        type: "graph",
+                                        top: "16",
+                                        left: "43",
+                                        key: ["kWh-พลังงานไฟฟ้า","W-กำลังไฟฟ้า"],
+                                        th: "การปั่นสร้างพลังงาน เป็นการนำพลังงานที่ได้จากการออกกำลังกายของมนุษย์มาใช้เป็นพลังงานทดแทนในการผลิต ไฟฟ้าด้วยจักรยานปั่นรูปแบบต่าง ๆ ที่ใช้ทั้งวิทยาศาสตร์ เทคโนโลยี กระบวนการทางวิศวกรรมศาสตร์และคณิตศาสตร์ แก้ปัญหาที่เชื่อมโยงกับชีวิตจริง มุ่งสู่การสร้างนวัตกรรมด้านพลังงานในอนาคต"
+
+                                    },
+                                    {
+                                        type: "graph",
+                                        top: "16",
+                                        left: "50.2",
+                                        key: ["kWh-พลังงานไฟฟ้า","W-กำลังไฟฟ้า"],
+                                        th: "การปั่นสร้างพลังงาน เป็นการนำพลังงานที่ได้จากการออกกำลังกายของมนุษย์มาใช้เป็นพลังงานทดแทนในการผลิต ไฟฟ้าด้วยจักรยานปั่นรูปแบบต่าง ๆ ที่ใช้ทั้งวิทยาศาสตร์ เทคโนโลยี กระบวนการทางวิศวกรรมศาสตร์และคณิตศาสตร์ แก้ปัญหาที่เชื่อมโยงกับชีวิตจริง มุ่งสู่การสร้างนวัตกรรมด้านพลังงานในอนาคต"
+
+                                    },
+                                    {
+                                        type: "graph",
+                                        top: "16",
+                                        left: "57.5",
+                                        key: ["kWh-พลังงานไฟฟ้า","W-กำลังไฟฟ้า"],
+                                        th: "การปั่นสร้างพลังงาน เป็นการนำพลังงานที่ได้จากการออกกำลังกายของมนุษย์มาใช้เป็นพลังงานทดแทนในการผลิต ไฟฟ้าด้วยจักรยานปั่นรูปแบบต่าง ๆ ที่ใช้ทั้งวิทยาศาสตร์ เทคโนโลยี กระบวนการทางวิศวกรรมศาสตร์และคณิตศาสตร์ แก้ปัญหาที่เชื่อมโยงกับชีวิตจริง มุ่งสู่การสร้างนวัตกรรมด้านพลังงานในอนาคต"
+
+                                    },
+                                    {
+                                        type: "exh",
+                                        top: "24",
+                                        left: "6",
+                                        key: ["solar1","solar2"],
+                                        title: "Solar flower",
+                                        subtitle: "",
+                                        th: "พลังงานแสงอาทิตย์ เป็นพลังงานจากการแผ่รังสีของดวงอาทิตย์ที่ส่งมายังโลก ให้ทั้งพลังงานแสงและความร้อน ประเทศไทยตั้งอยู่ในเขตเส้นศูนย์สูตรจึงได้รับแสงอาทิตย์อย่างต่อเนื่องและคงที่ตลอดปี ถือว่ามีศักยภาพ พลังงานแสงอาทิตย์ค่อนข้างสูง พื้นที่ทั่วประเทศได้รับความเข้มรังสีรวมของดวงอาทิตย์รายวันเฉลี่ยต่อปี 18.0 MJ/m2-day หรือ 5 kWh/m2-day",
+                                        en: "Solar energy is energy obtained from the sun's radiation in the forms of heat and light. It is sa"id" that Thailand has high solar potential due to the location in the tropical area. The average solar radiation in Thailand is about 18.0 MJ/m -day or about 5 kWh/m2 -day."
+                                
+                                    },
+                                    {
+                                        type: "graph",
+                                        top: "17.5",
+                                        left: "23",
+                                        key: ["kWh-พลังงานไฟฟ้า","W-กำลังไฟฟ้า"],
+                                        th: "การปั่นสร้างพลังงาน เป็นการนำพลังงานที่ได้จากการออกกำลังกายของมนุษย์มาใช้เป็นพลังงานทดแทนในการผลิต ไฟฟ้าด้วยจักรยานปั่นรูปแบบต่าง ๆ ที่ใช้ทั้งวิทยาศาสตร์ เทคโนโลยี กระบวนการทางวิศวกรรมศาสตร์และคณิตศาสตร์ แก้ปัญหาที่เชื่อมโยงกับชีวิตจริง มุ่งสู่การสร้างนวัตกรรมด้านพลังงานในอนาคต"
+
+                                    },
+                                    {
+                                        type: "exh",
+                                        top: "23",
+                                        left: "89",
+                                        key: ["stove1","stove2"],
+                                        title: "เตาประสิทธิภาพสูง (Rocket Stove)",
+                                        subtitle: "ชีวมวล(Biomass)",
+                                        th: "ชีวมวลเป็นสารอินทรีย์ที่ได้จากสิ่งมีชีวิต เช่น เศษไม้ วัสดุทางการเกษตร สามารถใช้เป็นเชื้อเพลิง เพื่อผลิตพลังงานด้วยกระบวนการต่าง ๆ การใช้เตาประสิทธิภาพสูง Rocket Stove เป็นวิธีหนึ่งในการผลิต ความร้อนโดยการเผาไหม้เชื้อเพลิงชีวมวล มีการเผาไหมสมบูรณ์ ลดการปล่อยแก๊สมลพิษทางอากาศ มักใช้ฟืน เป็นเชื้อเพลิงและใช้จำนวนน้อย ช่วยลดค่าใช้จ่ายในครัวเรือนได้",
+                                        en: "Biomass, such as wood res"id"ues and agricultural products, is fuel from living organisms. It can be used to create various types of energy in a variety of ways. A rocket stove is an efficient cooking device to produce heat by burning biomass fuels. There is clean and efficient combustion process, so it reduces harmful emissions. The rocket stove uses less firewood or thin sticks as fuel, therefore, reduces household expense."
+                                
+                                    },
+                                    {
+                                        type: "graph",
+                                        top: "57",
+                                        left: "74",
+                                        key: ["kWh-พลังงานไฟฟ้า","W-กำลังไฟฟ้า","T-อุณหภูมิ"],
+                                        th: "การปั่นสร้างพลังงาน เป็นการนำพลังงานที่ได้จากการออกกำลังกายของมนุษย์มาใช้เป็นพลังงานทดแทนในการผลิต ไฟฟ้าด้วยจักรยานปั่นรูปแบบต่าง ๆ ที่ใช้ทั้งวิทยาศาสตร์ เทคโนโลยี กระบวนการทางวิศวกรรมศาสตร์และคณิตศาสตร์ แก้ปัญหาที่เชื่อมโยงกับชีวิตจริง มุ่งสู่การสร้างนวัตกรรมด้านพลังงานในอนาคต"
+
+                                    }
+                                ]
+                        }
+                    },
+                    {
+                        "id": "weather011",
+                        "name": 'ศูนย์วิทย์1',
+                        "indoors": [],
+                        outdoor: 4
+                    }
+                ]

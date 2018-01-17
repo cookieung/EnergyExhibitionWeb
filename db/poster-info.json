@@ -1,0 +1,23 @@
+[
+  {"poster" : 
+      [{
+      "title":"จักรยานปั่นออกกำลังกาย",
+      "subtitle":"ปั่นสร้างพลังงาน(Bicycle Generator)",
+      "th": "การปั่นสร้างพลังงาน เป็นการนำพลังงานที่ได้จากการออกกำลังกายของมนุษย์มาใช้เป็นพลังงานทดแทนในการผลิต ไฟฟ้าด้วยจักรยานปั่นรูปแบบต่าง ๆ ที่ใช้ทั้งวิทยาศาสตร์ เทคโนโลยี กระบวนการทางวิศวกรรมศาสตร์และคณิตศาสตร์ แก้ปัญหาที่เชื่อมโยงกับชีวิตจริง มุ่งสู่การสร้างนวัตกรรมด้านพลังงานในอนาคต",
+      "en": "A bicycle generator is an exercising machine using  human power to generate electricity. It can be designed in various features from a used bicycle on your own. The invention corresponds to science, technology, engineering and mathematics  for  solving problems related to everyday life towards energy innovation."
+      },
+      {
+        "title": "เตาประสิทธิภาพสูง (Rocket Stove)",
+        "subtitle": "ชีวมวล(Biomass)",
+        "th": "ชีวมวลเป็นสารอินทรีย์ที่ได้จากสิ่งมีชีวิต เช่น เศษไม้ วัสดุทางการเกษตร สามารถใช้เป็นเชื้อเพลิง เพื่อผลิตพลังงานด้วยกระบวนการต่าง ๆ การใช้เตาประสิทธิภาพสูง Rocket Stove เป็นวิธีหนึ่งในการผลิต ความร้อนโดยการเผาไหม้เชื้อเพลิงชีวมวล มีการเผาไหมสมบูรณ์ ลดการปล่อยแก๊สมลพิษทางอากาศ มักใช้ฟืน เป็นเชื้อเพลิงและใช้จำนวนน้อย ช่วยลดค่าใช้จ่ายในครัวเรือนได้",
+        "en": "Biomass, such as wood residues and agricultural products, is fuel from living organisms. It can be used to create various types of energy in a variety of ways. A rocket stove is an efficient cooking device to produce heat by burning biomass fuels. There is clean and efficient combustion process, so it reduces harmful emissions. The rocket stove uses less firewood or thin sticks as fuel, therefore, reduces household expense."
+      },
+      {
+        "title": "Solar flower",
+        "subtitle": "",
+        "th": "พลังงานแสงอาทิตย์ เป็นพลังงานจากการแผ่รังสีของดวงอาทิตย์ที่ส่งมายังโลก ให้ทั้งพลังงานแสงและความร้อน ประเทศไทยตั้งอยู่ในเขตเส้นศูนย์สูตรจึงได้รับแสงอาทิตย์อย่างต่อเนื่องและคงที่ตลอดปี ถือว่ามีศักยภาพ พลังงานแสงอาทิตย์ค่อนข้างสูง พื้นที่ทั่วประเทศได้รับความเข้มรังสีรวมของดวงอาทิตย์รายวันเฉลี่ยต่อปี 18.0 MJ/m2-day หรือ 5 kWh/m2-day",
+        "en": "Solar energy is energy obtained from the sun's radiation in the forms of heat and light. It is said that Thailand has high solar potential due to the location in the tropical area. The average solar radiation in Thailand is about 18.0 MJ/m -day or about 5 kWh/m2 -day."
+      }]
+  }
+  
+]

@@ -1,0 +1,38 @@
+<div class="items-group">
+      <div class="item" id="slide-0"><div class="blur" style="background-image: url(https://images.pexels.com/photos/39811/pexels-photo-39811.jpeg?w=940&amp;h=650&amp;auto=compress&amp;cs=tinysrgb);"></div><div class="bg" style="background-image: url(https://images.pexels.com/photos/39811/pexels-photo-39811.jpeg?w=940&amp;h=650&amp;auto=compress&amp;cs=tinysrgb);"></div>
+        <div class="block" style="background-image: url(&quot;https://images.pexels.com/photos/39811/pexels-photo-39811.jpeg?w=940&amp;h=650&amp;auto=compress&amp;cs=tinysrgb&quot;);">
+          <span class="circleLight"></span>
+          <div class="text">
+            <h2>Hi</h2>
+            <p>I`m cool card</p>
+          </div>
+        </div>
+      </div>
+      <div class="item" id="slide-1"><div class="blur" style="background-image: url(https://images.pexels.com/photos/210546/pexels-photo-210546.jpeg?w=940&amp;h=650&amp;auto=compress&amp;cs=tinysrgb);"></div><div class="bg" style="background-image: url(https://images.pexels.com/photos/210546/pexels-photo-210546.jpeg?w=940&amp;h=650&amp;auto=compress&amp;cs=tinysrgb);"></div>
+        <div class="block" style="background-image: url(&quot;https://images.pexels.com/photos/210546/pexels-photo-210546.jpeg?w=940&amp;h=650&amp;auto=compress&amp;cs=tinysrgb&quot;);">
+          <span class="circleLight"></span>
+          <div class="text">
+            <h2>Hi</h2>
+            <p>I`m cool card</p>
+          </div>
+        </div>
+      </div>
+      <div class="item" id="slide-2"><div class="blur" style="background-image: url(https://images.pexels.com/photos/203319/pexels-photo-203319.jpeg?w=940&amp;h=650&amp;auto=compress&amp;cs=tinysrgb);"></div><div class="bg" style="background-image: url(https://images.pexels.com/photos/203319/pexels-photo-203319.jpeg?w=940&amp;h=650&amp;auto=compress&amp;cs=tinysrgb);"></div>
+        <div class="block" style="background-image: url(&quot;https://images.pexels.com/photos/203319/pexels-photo-203319.jpeg?w=940&amp;h=650&amp;auto=compress&amp;cs=tinysrgb&quot;);">
+          <span class="circleLight"></span>
+          <div class="text">
+            <h2>Hi</h2>
+            <p>I`m cool card</p>
+          </div>
+        </div>
+      </div>
+      <div class="item" id="slide-3"><div class="blur" style="background-image: url(https://images.pexels.com/photos/30361/pexels-photo-30361.jpg?w=940&amp;h=650&amp;auto=compress&amp;cs=tinysrgb);"></div><div class="bg" style="background-image: url(https://images.pexels.com/photos/30361/pexels-photo-30361.jpg?w=940&amp;h=650&amp;auto=compress&amp;cs=tinysrgb);"></div>
+        <div class="block" style="background-image: url(&quot;https://images.pexels.com/photos/30361/pexels-photo-30361.jpg?w=940&amp;h=650&amp;auto=compress&amp;cs=tinysrgb&quot;);">
+          <span class="circleLight"></span>
+          <div class="text">
+            <h2>Hi</h2>
+            <p>I`m cool card</p>
+          </div>
+        </div>
+      </div>
+    </div>

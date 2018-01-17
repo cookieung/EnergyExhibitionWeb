@@ -1,0 +1,148 @@
+.outdoor{
+  width: 100vw;
+  height: 100vh;
+
+  .bg{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    // background-image: url('../img/img/outdoor/bg_outdoor.png');
+  }
+
+}
+
+.indoor{
+  width: 100vw;
+  height: 100vh;
+
+  .bg{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    // background-image: url('../img/indoor/bg_indoor.png');
+  }
+
+}
+
+
+
+.slider{
+  
+    .items-group{
+        margin: auto;
+        text-align: center;
+        max-height: 100%;
+  
+      .item{
+        top: 0px;
+        left: 0px;
+        opacity: 1;
+        height: auto;
+        width: 75%;
+        transition: 0.5s;
+        visibility: visible;
+        margin: auto;
+        position: relative;
+        display: inline-block;
+        max-height: 100%;
+        &:hover{
+          
+          .bg{
+            opacity: 0.2;
+          }
+          
+          .block{
+            box-shadow: 0px 0px 50px #333;
+          }
+        }
+  
+  
+        .bg{
+          top: 0px;
+          left: 0px;
+          opacity: 1;
+          z-index: -1;
+          width: 100%;
+          height: 100%;
+          transition: 0.5s;
+          position: absolute;
+          transform: scale(1.03);
+          background-image: url('img/bg.jpg');
+          background-size: cover;
+          background-position: center;
+          background-attachment: fixed;
+        }
+        
+        .blur{
+          z-index: -1;
+          width: 100%;
+          height: 100%;
+          transition: 0.5s;
+          filter: blur(5px);
+          position: absolute;
+          transform: scale(1.03);
+          background-size: cover;
+          background-position: center;
+          background-attachment: fixed;
+        }
+  
+        .block{
+          width: 100%;
+          height: fit-content;
+          padding: 20px;
+          color: #ffffff;
+          transition:box-shadow 0.5s;
+          text-align: center;
+          overflow: hidden;
+          border-radius: 10px;
+          box-sizing: border-box;
+          background-size: cover;
+          box-shadow: none;
+          
+          .circleLight{
+            top: 0px;
+            left: 0px;
+            opacity: 0;
+            content: '';
+            width: 100%;
+            height: 100%;
+            display: block;
+            transition: 0.5s;
+            position: absolute;
+            border-radius: 10px;
+            background: radial-gradient(circle at 80px 40px, #fff, transparent);
+          }
+          
+          .text{
+            max-width: 70%;
+            height: auto;
+            
+          }
+          
+          h2{
+            font-family: 'Oswald', sans-serif;
+            font-size: 130px;
+            margin-bottom: 0px;
+          }
+          
+          p{
+            font-family: 'Open Sans', sans-serif;
+            font-size: 15px;
+          }
+          
+          &:hover{
+            box-shadow: 0px 0px 70px #111;
+            
+            .circleLight{
+              opacity: 0.4;
+            }
+          }
+        }
+      }
+    }
+  
+  }

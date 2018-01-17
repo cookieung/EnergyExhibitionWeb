@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CSRS Energy Exhibition</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Leaflet -->
+    <link rel="stylesheet" href="css/leaflet.css" />
+    <!-- Custom Theme Style -->
+    <link href="css/device.css" rel="stylesheet">
+    <link href="css/indoor.css" rel="stylesheet">
+    <link href="css/outdoor.css" rel="stylesheet">
+    <link href="css/hover-animate.css" rel="stylesheet">
+
+    <link href="css/jquery.circliful.css" rel="stylesheet" type="text/css" />
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+    <script src="js/jquery.circliful.min.js"></script>
+
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+</head>
+<body style="position: relative">
+
+    <div id="header-name" class="wrapper" style="position: absolute; z-index: 2; width: 100vw; display: none" class="block-for-head">
+            
+        <div id="config-head-l" class="slider col-md-6 block-for-head">
+                    <div class="items-group row content-center">
+                            <div class="item" style="width: 100%">
+                                <div class="block header-text homeBtn"  style="width: 90%;">
+                                    <h class="text name-location" >ชื่อศูนย์วิทย์</h>
+                                </div>
+                            </div>
+                    </div>
+    
+        </div>
+        <div >
+                    
+        </div>
+    </div>
+
+    <div id="homepage" style="display: block;">
+        <div class="header">
+            <img class="img-header" id="imgHeader" src="img/header.png" />
+        </div>
+        <div class="content-map" id="mapid"></div>
+    </div>
+
+    <div id="select_exhibition" class="wrapper" style="display:none; position: absolute; width: 100vw;">
+            <div class="content full-height">
+                <div class="slider col-md-6 content-center color-default" style="bottom: 0">
+                        <div id="config-head-l" class="slider block-for-head">
+                                <div class="items-group row content-center">
+                                        <div class="item" style="width: 100%">
+                                            <div class="block header-text homeBtn" style="width: 90%;">
+                                                <h class="text name-location" >ชื่อศูนย์วิทย์</h>
+                                            </div>
+                                        </div>
+                                </div>
+                
+                        </div>
+                    <div class="items-group row content-center">
+                        <div class="make-space item padding-big">
+                            <div class="block">
+                                <img id="indoorBtn" class="text" src="img/button-01.png" />
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                </div>
+                <div class="slider col-md-6 content-center color-primary" style="bottom: 0">
+                        <div id="config-head-r" class="use-sun-cloud block-for-head">
+                                <div id="weatherBtn">
+                                        <div class="row">
+                                                <div class="hover-icon icon sun-shower">
+                                                        <div class="cloud"></div>
+                                                        <div class="sun">
+                                                          <div class="rays"></div>
+                                                        </div>
+                                                        <div class="rain"></div>
+                                                        <div class="label-icon"><h>CSRS Weather Station</h></div>
+                                                      </div>                                    
+                                        </div>
+                                </div>
+                        </div>
+                    <div class="items-group row content-center">
+                            <div class="make-space item padding-big">
+                                <div class="block">
+                                    <img id="outdoorBtn" class="text" src="img/button-02.png" />
+                                </div>
+                            </div>
+    
+                    </div>
+                </div>
+            </div>
+
+            
+
+    </div>
+
+    <div id="indoor" class="wrapper indoor" style="display: none; position: relative; ">
+            <div class="block-for-head" style="position: absolute; z-index: 0">
+                </div>
+                <div id="indoor_preview_layer" class="content-center  padding full-height" style="display: none">
+                    <div id="indoor_view_exh" class="hover-icon">
+                        <h5 style="color: white; ">More Information</h5>
+                    </div>
+                    <div id="indoor_exhibition_screen" class="text-center">                 
+                    </div>
+                </div>
+                <div id="indoor-list" class="bg content-center  padding full-height">    
+                </div>
+    </div>
+    <div id="outdoor" class="wrapper outdoor" style="position: relative; display: none">
+        <div class="block-for-head" style="position: absolute; z-index: 0">
+        </div>
+        <div id="outdoor_preview_layer" class="content-center  padding full-height" style="display: none">
+            <div id="outdoor_view_exh" class="hover-icon">
+                <h5 style="color: white; ">More Information</h5>
+            </div>
+            <div id="outdoor_exhibition_screen" class="text-center">                 
+            </div>
+        </div>
+        <div id="outdoor-list" class="bg content-center  padding full-height">    
+        </div>
+     
+    </div>
+
+</body>
+
+
+    
+    
+        <!-- FastClick -->
+        <script src="https://csrs.ku.ac.th/devices/app/vendors/fastclick/lib/fastclick.js"></script>
+        <!-- NProgress -->
+        <script src="https://csrs.ku.ac.th/devices/app/vendors/nprogress/nprogress.js"></script>
+        <!-- Moment.js -->
+        <script src="https://csrs.ku.ac.th/devices/app/vendors/moment/min/moment.min.js"></script>
+        <!-- Chart.js -->
+        <script src="https://csrs.ku.ac.th/devices/app/vendors/Chart.js/dist/Chart.min.js"></script>
+        <!-- Leaflet.js -->
+        <script src="https://csrs.ku.ac.th/devices/app/js/leaflet.js"></script>
+        <!-- Leaflet.js -->
+        <script src="https://csrs.ku.ac.th/devices/app/js/leaflet-color-markers.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAlFagTywFK1yCEZl6YgFLP0E17O--_BR4" async defer></script>
+        <script src="https://csrs.ku.ac.th/devices/app/js/Leaflet.GoogleMutant.js"></script>
+        <script src="js/device_map.js"></script>
+
+        <script type="text/javascript">
+            
+                var exhs = JSON.parse(sessionStorage.getItem("exhibitions"));
+              
+            
+            
+            
+            
+                function getPosBtn(id,key){
+                    console.log(id);
+                    for(let i = 0; i< exhs.length ; i++){
+                        if(exhs[i].id === id) {
+                            if(key === "outdoor") return (exhs[i].outdoors);
+                            else return (exhs[i].indoors);
+                        }
+                    }
+                        return [];
+                }
+            
+                function updateLayer(e,type,exhibition){
+                    let newName = e.replace("exhibition","text");
+                    $("#"+newName).css("display","none");
+                    var s = e.split("_");
+                    console.log(s)
+                        var i = s[s.length-1];
+                        var txt = exhibition+"_next-img-"+i;
+                        console.log(txt,type==="graph")
+            
+                    if(type === "graph"){
+                        txt = exhibition+"_myChart-"+txt;
+                        console.log("in true",txt)
+                    }
+            
+                    console.log("Type","Update",txt);
+                    $("#"+txt).css("display","block");
+            
+                        
+                }
+                
+                function toggleLayer(e,type,exhibition){
+                    if(type === "graph"){
+                        $("#"+exhibition+"_view_exh").css("display","none");
+                    }
+                    $(".block-for-head").css("display","none");
+                    $("#"+exhibition+"_preview_layer").css("display","block");
+                    var txt = exhibition+"_exhibition_screen_"+e;
+                    console.log(txt)
+                    $("#"+txt).css("display","block");
+                    document.getElementById(exhibition+"_view_exh").addEventListener("click", function(){
+                        updateLayer(txt,type,exhibition);
+                    }, false);
+                }
+            
+                function hideLayer(exhibition){
+                    $("#"+exhibition+"_view_exh").css("display","block");
+                    $(".exh").css("display","none");
+                    $(".primary-text").css("display","block");
+            
+                    $("#"+exhibition+"_preview_layer").css("display","none");
+            
+            
+                    $(".block-for-head").css("display","block");
+                    $("#config-head-r").css("display","none");
+                }
+            
+                function updatePic(exhibition){
+            
+                    let sss = document.getElementsByClassName(exhibition+"_next_img");
+                    for(let i = 0; i<sss.length ; i++){
+                        let ca = sss[i].id;
+                        console.log(ca)
+                        let ren = ca.split("-");
+                        return ren[ren.length-1];
+                    }
+            
+                }
+            
+                function genButton(dest,arr,exhibition){
+                        console.log(arr,arr.length)
+                        for(i =0; i< arr.length ; i++){
+                        let maxW = window.innerWidth;
+                        let maxHeight = window.innerHeight;
+                        console.log(maxHeight,maxW);
+                        //  let top = Math.abs(100-((Math.floor((Math.random() * maxHeight) + 250))*100/maxHeight))
+                        //  let left = Math.abs(100-((Math.floor((Math.random() * maxW) + 500))*100/maxW));
+                        let top = arr[i].top;
+                        let left = arr[i].left;
+                        let type = arr[i].type;
+                        let key = arr[i].key;
+                        let percent = arr[i].percent;
+                        let title = arr[i].title;
+                        if( title == undefined) title = key[0];     
+                        let subtitle = arr[i].subtitle;
+                        let value = arr[i].th;
+                        let value_en = arr[i].en;
+                        let index = i+1;
+                        let size = 12/(key.length);
+                        console.log(key);
+                        let html =
+                            "<div class='text' style='position: absolute; top: "+top+"%; left: "+left+"%'>"+
+                                "<span id='exh-"+exhibition+"-"+index+"' class='glyphicon glyphicon-record' aria-hidden='true'>"
+                                    +"</span>"+
+                            "</div>";
+                        $("#"+dest).append(html);
+                        document.getElementById("exh-"+exhibition+"-"+index).addEventListener("click",function(){
+                            if(exhibition === "indoor"){
+                                window.open(key);
+                                return ;
+                            }
+                            toggleLayer(index,type,exhibition);
+                        }, false);
+                        let m = ""; 
+            
+                        console.log("Type"+type);
+                       
+                        if(type === "exh"){
+                            m += "<div class='exh' id='"+exhibition+"_exhibition_screen_"+index+"' style='display: none;'>"+"<div class='result' >";
+                            m +=    "<div class='primary-text' id='"+exhibition+"_text_screen_"+index+"' >"+
+                                        "<h2>"+title+"</h2>";
+                                        if(subtitle != undefined )
+                                        {
+                                            m+= "<h3>"+subtitle+"</h3>";
+                                        }
+                                        m+= "<h4 style='text-align: left'>"+value+"</h4>";
+                                        if(value_en != undefined){
+                                            m+= "<h4 style='text-align: left'>"+value_en+"</h4>";
+                                        }
+                                        m+="</div>";
+                                    m +=  "<div class='exh' id='"+exhibition+"_next-img-"+index+"' class='row' style='display: none;'>";
+                                    for(let j = 1; j<= key.length; j++){
+            
+                                        console.log("img/"+exhibition+"/poster/"+key[j-1]+".png")
+                                        m+="<div class='row'>";
+                                        m += "<img class='next_img poster' id='"+exhibition+"_next-img-"+index+"-"+j+"' src='img/outdoor/poster/"+key[j-1]+".png' />";
+                                        m+= "</div>";
+                                    }
+                                    m+="</div>";
+                                   
+                                   
+                                    m+="</div>"+"</div>";
+                                }
+                        else if( type === "graph"){
+                            m+="<div class='exh result row' id='"+exhibition+"_exhibition_screen_"+index+"' class='row' style='display: none; height: fit-content;' >";
+                                
+                                
+                                for(let j = 0; j< key.length; j++){
+                                    let data = key[j];
+                                    console.log(percent);
+                                    let graphPercent = percent[j];
+                                    let sep = data.split("-");
+                                    m+="<div class='col-md-"+size+"' >";
+                                    m+="<div ><h2>"+sep[0]+"</h2></div>";
+                                    m+="<div id='"+exhibition+"_myChart-next-img-"+index+"-"+(j+1)+"' data-info='New Users' data-dimension='250'  data-info='New Clients' data-width='30' data-fontsize='38' data-percent='"+graphPercent+"' data-fgcolor='#61a9dc' data-bgcolor='#eee' data-fill='#ddd'></div>";  //graph percent circle
+                                    m+="<div ><h3>"+sep[1]+"</h3></div>";
+                                    m+="</div>";
+                                }
+            
+                                m+="</div>";
+                                            
+                        }
+                                     
+            
+            
+                        console.log("Type",$("#"+exhibition+"_exhibition_screen"))
+            
+                         $("#"+exhibition+"_exhibition_screen").append(m);
+            
+                         if(type === 'graph'){
+                            
+                            $( document ).ready(function() {
+                                for(let j = 0; j< key.length; j++){
+                                    $("#"+exhibition+"_myChart-next-img-"+index+"-"+(j+1)).circliful();
+                                }
+            
+                            });
+                          
+                         }
+                         
+                         $("#"+exhibition+"_exhibition_screen").css("color","white");
+            
+                     }
+                    }
+                
+            
+                let url = document.URL;
+                if(url.indexOf("?") >= 0){
+                                let s = document.URL.split("?");
+                                if(url.indexOf("?") >= 0){
+                                    let sr = s[1].split("=");
+                                    let name_l = sr[0];
+                                    let name_r = sr[1];
+                                    console.log(name_l,name_r);
+                                    $(".name-location").html(sessionStorage.name);
+                                    $(".homeBtn").click(function(){
+                                        window.location.href = "index.html";
+                                    });
+            
+            
+                                    if(name_l.indexOf("exh") >= 0) {
+                                        document.getElementById("homepage").style.display = 'none';
+                                        document.getElementById("select_exhibition").style.display = 'block';
+                                        document.getElementById("header-name").style.display = 'none';
+                                        $("#weatherBtn").click(function(){
+                                            window.open("http://csrs.ku.ac.th/devices?ID="+name_r);
+                                        });
+                                        $("#indoorBtn").click(function(){
+                                            window.location.href = s[0]+"?indoor="+name_r;
+                                        });
+                                        $("#outdoorBtn").click(function(){
+                                            window.location.href = s[0]+"?outdoor="+name_r;
+                                        });
+                                    }
+                                    else if(name_l.indexOf("indoor") >= 0) {
+                                        document.getElementById("indoor_exhibition_screen").addEventListener("click", function(){
+                                            hideLayer("indoor");
+                                        });
+                                        $("#config-head-r").removeClass('col-md-6');
+                                        $("#config-head-l").removeClass('col-md-6').addClass('col-md-12');
+                                        $("#header-name").css("top","75vh");
+                                        $(".header-text").css("background-color","rgba(207,84,60,0.75)");
+                                        document.getElementById("homepage").style.display = 'none';
+                                        document.getElementById("indoor").style.display = 'block';
+                                        document.getElementById("header-name").style.display = 'block';
+                                        $(".use-sun-cloud").css("display", "none");
+                                        $(".name-location").prepend("นิทรรศการภายใน ");
+            
+            
+                                        let arr = getPosBtn(name_r,"indoor");
+            
+                                        console.log(arr)
+            
+                                        $(".indoor .bg").css('background-image', 'url(' +arr.bg + ')');
+
+                                        genButton("indoor-list",arr.list,"indoor");
+            
+                                        updatePic("indoor");
+                        
+                                        
+                                    }
+                                    else if(name_l.indexOf("outdoor") >= 0) {
+                                        document.getElementById("outdoor_exhibition_screen").addEventListener("click", function(){
+                                            hideLayer("outdoor");
+                                        });
+                                        $("#config-head-r").removeClass('col-md-6');
+                                        $("#config-head-l").removeClass('col-md-6').addClass('col-md-12');
+                                        $("#header-name").css("top","80vh");
+                                        $(".header-text").css("background-color","rgba(207,84,60,0.75)");
+                                        document.getElementById("homepage").style.display = 'none';
+                                        document.getElementById("outdoor").style.display = 'block';
+                                        document.getElementById("header-name").style.display = 'block';
+                                        $(".use-sun-cloud").css("display", "none");
+                                        $(".name-location").prepend("นิทรรศการภายนอก ");
+            
+            
+                                        let arr = getPosBtn(name_r,"outdoor");
+            
+                                        console.log(arr)
+
+                                        $(".outdoor .bg").css('background-image', 'url(' +arr.bg + ')');
+            
+                                        genButton("outdoor-list",arr.list,"outdoor");
+            
+                                        updatePic("outdoor");
+                                    }
+                                }
+                }
+                
+            
+            </script>
+</html>
